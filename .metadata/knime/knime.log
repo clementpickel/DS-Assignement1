@@ -1,0 +1,575 @@
+2024-10-31 11:54:54,753 : WARN  : comm-pool-thread-7 :  : Node : UNIX Timestamp to Date&Time : 3:11 : Node must be configured!
+2024-10-31 17:20:08,068 : WARN  : comm-pool-thread-6 :  : Node : Joiner : 3:13 : Column "dates" is included from both the left and the right input table but "Do not execute with duplicate column names" is selected.
+2024-10-31 17:20:23,777 : WARN  : main :  : Node : Joiner : 3:13 : Column "dates" is included from both the left and the right input table but "Do not execute with duplicate column names" is selected.
+2024-10-31 17:21:29,255 : WARN  : main :  : Node : Joiner : 3:13 : Column "dates" is included from both the left and the right input table but "Do not execute with duplicate column names" is selected.
+2024-10-31 17:21:31,324 : WARN  : KNIME-Worker-9-Ungroup 3:14 :  : Node : Joiner : 3:13 : Column "dates" is included from both the left and the right input table but "Do not execute with duplicate column names" is selected.
+2024-10-31 17:21:31,333 : WARN  : KNIME-Worker-11-UNIX Timestamp to Date&Time 3:18 :  : Node : Joiner : 3:13 : Column "dates" is included from both the left and the right input table but "Do not execute with duplicate column names" is selected.
+2024-10-31 17:21:31,373 : WARN  : KNIME-Worker-11-Ungroup 3:12 :  : Node : Joiner : 3:13 : Column "dates" is included from both the left and the right input table but "Do not execute with duplicate column names" is selected.
+2024-10-31 17:21:31,386 : WARN  : KNIME-Worker-12-UNIX Timestamp to Date&Time 3:11 :  : Node : Joiner : 3:13 : Column "dates" is included from both the left and the right input table but "Do not execute with duplicate column names" is selected.
+2024-10-31 17:22:03,626 : WARN  : comm-pool-thread-9 :  : Node : Joiner : 3:13 : Column "dates" is included from both the left and the right input table but "Do not execute with duplicate column names" is selected.
+2024-10-31 17:22:54,799 : WARN  : KNIME-Worker-12-Joiner 3:13 :  : Node : Joiner : 3:13 : Node created an empty data table.
+2024-10-31 17:28:10,137 : WARN  : KNIME-Worker-14-Joiner 3:13 :  : Node : Joiner : 3:13 : Node created an empty data table.
+2024-10-31 17:30:41,923 : WARN  : KNIME-Worker-18-Joiner 3:13 :  : Node : Joiner : 3:13 : Node created an empty data table.
+2024-10-31 17:36:09,798 : WARN  : comm-pool-thread-14 :  : Node : String to Date&Time : 3:19 : Node must be configured.
+2024-10-31 17:37:04,548 : ERROR : KNIME-Worker-25-String to Date&Time 3:19 :  : Node : String to Date&Time : 3:19 : Could not parse date in cell [Row0_1, column "Type", row number 1]: Pattern "yyyy'M'MM" does not match "Total".
+ RowID  |  Type  |  Date  
+--------+--------+---------
+ Row0_1 | Total  | 2023M09
+          ^^^^^
+Could not parse date in cell [Row0_1, column "Type", row number 1]: Pattern "yyyy'M'MM" does not match "Total".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0_1, column "Type", row number 1]: Pattern "yyyy'M'MM" does not match "Total".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0_1, column "Type", row number 1]: Pattern "yyyy'M'MM" does not match "Total".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text 'Total' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDateTime.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:514)
+	... 21 more
+2024-10-31 17:37:32,293 : ERROR : KNIME-Worker-26-String to Date&Time 3:19 :  : Node : String to Date&Time : 3:19 : Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy'M'MM" does not match "2023M09".
+ RowID  |  Type  |  Date   | Value 
+--------+--------+---------+--------
+ Row0_1 | Total  | 2023M09 | 11281 
+                   ^^^^^^^
+Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy'M'MM" does not match "2023M09".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy'M'MM" does not match "2023M09".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy'M'MM" does not match "2023M09".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text '2023M09' could not be parsed: Unable to obtain LocalDate from TemporalAccessor: {Year=2023, MonthOfYear=9},ISO of type java.time.format.Parsed
+	at java.base/java.time.format.DateTimeFormatter.createError(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDate.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:506)
+	... 21 more
+Caused by: java.time.DateTimeException: Unable to obtain LocalDate from TemporalAccessor: {Year=2023, MonthOfYear=9},ISO of type java.time.format.Parsed
+	at java.base/java.time.LocalDate.from(Unknown Source)
+	at java.base/java.time.format.Parsed.query(Unknown Source)
+	... 24 more
+2024-10-31 17:38:19,967 : ERROR : KNIME-Worker-27-String to Date&Time 3:19 :  : Node : String to Date&Time : 3:19 : Could not parse date in cell [Row0_1, column "Type", row number 1]: Pattern "yyyy'M'MM" does not match "Total".
+ RowID  |  Type  |  Date  
+--------+--------+---------
+ Row0_1 | Total  | 2023M09
+          ^^^^^
+Could not parse date in cell [Row0_1, column "Type", row number 1]: Pattern "yyyy'M'MM" does not match "Total".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0_1, column "Type", row number 1]: Pattern "yyyy'M'MM" does not match "Total".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0_1, column "Type", row number 1]: Pattern "yyyy'M'MM" does not match "Total".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text 'Total' could not be parsed at index 0
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDate.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:506)
+	... 21 more
+2024-10-31 17:38:48,669 : ERROR : KNIME-Worker-28-String to Date&Time 3:19 :  : Node : String to Date&Time : 3:19 : Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy'M'MM" does not match "2023M09".
+ RowID  |  Type  |  Date   | Value 
+--------+--------+---------+--------
+ Row0_1 | Total  | 2023M09 | 11281 
+                   ^^^^^^^
+Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy'M'MM" does not match "2023M09".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy'M'MM" does not match "2023M09".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy'M'MM" does not match "2023M09".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text '2023M09' could not be parsed: Unable to obtain LocalDate from TemporalAccessor: {Year=2023, MonthOfYear=9},ISO of type java.time.format.Parsed
+	at java.base/java.time.format.DateTimeFormatter.createError(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDate.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:506)
+	... 21 more
+Caused by: java.time.DateTimeException: Unable to obtain LocalDate from TemporalAccessor: {Year=2023, MonthOfYear=9},ISO of type java.time.format.Parsed
+	at java.base/java.time.LocalDate.from(Unknown Source)
+	at java.base/java.time.format.Parsed.query(Unknown Source)
+	... 24 more
+2024-10-31 17:39:23,540 : ERROR : KNIME-Worker-29-String to Date&Time 3:19 :  : Node : String to Date&Time : 3:19 : Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy"M"MM " does not match "2023M09".
+ RowID  |  Type  |  Date   | Value 
+--------+--------+---------+--------
+ Row0_1 | Total  | 2023M09 | 11281 
+                   ^^^^^^^
+Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy"M"MM " does not match "2023M09".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy"M"MM " does not match "2023M09".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy"M"MM " does not match "2023M09".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text '2023M09' could not be parsed at index 4
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDate.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:506)
+	... 21 more
+2024-10-31 17:39:34,707 : ERROR : KNIME-Worker-30-String to Date&Time 3:19 :  : Node : String to Date&Time : 3:19 : Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy_MM " does not match "2023M09".
+ RowID  |  Type  |  Date   | Value 
+--------+--------+---------+--------
+ Row0_1 | Total  | 2023M09 | 11281 
+                   ^^^^^^^
+Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy_MM " does not match "2023M09".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy_MM " does not match "2023M09".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy_MM " does not match "2023M09".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text '2023M09' could not be parsed at index 4
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDate.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:506)
+	... 21 more
+2024-10-31 17:42:18,234 : ERROR : KNIME-Worker-31-String to Date&Time 3:19 :  : Node : String to Date&Time : 3:19 : Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy-MM " does not match "2023M09".
+ RowID  |  Type  |  Date   | Value 
+--------+--------+---------+--------
+ Row0_1 | Total  | 2023M09 | 11281 
+                   ^^^^^^^
+Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy-MM " does not match "2023M09".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy-MM " does not match "2023M09".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyy-MM " does not match "2023M09".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text '2023M09' could not be parsed at index 4
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDate.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:506)
+	... 21 more
+2024-10-31 17:43:49,061 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:6 : failed to apply settings: Unable to compile expression
+ERROR at line 73
+Syntax error, insert ";" to complete BlockStatements
+  Line : 72  	"Karnkraft", "Nuclear power"),
+  Line : 73  	"Solkraft", "Solar power")
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 73
+Syntax error, insert ";" to complete BlockStatements
+  Line : 72  	"Karnkraft", "Nuclear power"),
+  Line : 73  	"Solkraft", "Solar power")
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 73
+Syntax error, insert ";" to complete BlockStatements
+  Line : 72  	"Karnkraft", "Nuclear power"),
+  Line : 73  	"Solkraft", "Solar power")
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-10-31 17:43:57,494 : WARN  : main :  : WrappedNodeDialog : String Manipulation : 3:6 : failed to apply settings: Unable to compile expression
+ERROR at line 73
+Syntax error on token ",", ; expected
+  Line : 72  	"Karnkraft", "Nuclear power"),
+  Line : 73  	"Solkraft", "Solar power"),
+org.knime.core.node.InvalidSettingsException: Unable to compile expression
+ERROR at line 73
+Syntax error on token ",", ; expected
+  Line : 72  	"Karnkraft", "Nuclear power"),
+  Line : 73  	"Solkraft", "Solar power"),
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:419)
+	at org.knime.core.node.NodeDialogPane.internalSaveSettingsTo(NodeDialogPane.java:553)
+	at org.knime.core.node.NodeDialogPane$4.run(NodeDialogPane.java:792)
+	at org.knime.core.node.util.ViewUtils$3.run(ViewUtils.java:353)
+	at org.knime.core.node.util.ViewUtils$2.run(ViewUtils.java:155)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.desktop/java.awt.EventQueue$4.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop/java.awt.EventDispatchThread.run(Unknown Source)
+Caused by: org.knime.ext.sun.nodes.script.compile.CompilationFailedException: Unable to compile expression
+ERROR at line 73
+Syntax error on token ",", ; expected
+  Line : 72  	"Karnkraft", "Nuclear power"),
+  Line : 73  	"Solkraft", "Solar power"),
+	at org.knime.ext.sun.nodes.script.compile.JavaCodeCompiler.compile(JavaCodeCompiler.java:333)
+	at org.knime.ext.sun.nodes.script.expression.Expression.<init>(Expression.java:217)
+	at org.knime.ext.sun.nodes.script.expression.Expression.compile(Expression.java:619)
+	at org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeDialog.saveSettingsTo(StringManipulationNodeDialog.java:417)
+	... 17 more
+2024-10-31 17:45:07,636 : ERROR : KNIME-Worker-33-String to Date&Time 3:19 :  : Node : String to Date&Time : 3:19 : Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM " does not match "2023M09".
+ RowID  |  Type  |  Date   | Value 
+--------+--------+---------+--------
+ Row0_1 | 202309 | 2023M09 | 11281 
+                   ^^^^^^^
+Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM " does not match "2023M09".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM " does not match "2023M09".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM " does not match "2023M09".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text '2023M09' could not be parsed at index 4
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDate.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:506)
+	... 21 more
+2024-10-31 17:46:10,909 : ERROR : KNIME-Worker-34-String to Date&Time 3:19 :  : Node : String to Date&Time : 3:19 : Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM " does not match "2023M09".
+ RowID  |  Type  |  Date   | Value 
+--------+--------+---------+--------
+ Row0_1 | 202309 | 2023M09 | 11281 
+                   ^^^^^^^
+Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM " does not match "2023M09".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM " does not match "2023M09".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM " does not match "2023M09".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text '2023M09' could not be parsed at index 4
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDate.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:506)
+	... 21 more
+2024-10-31 17:46:34,456 : ERROR : KNIME-Worker-36-String to Date&Time 3:19 :  : Node : String to Date&Time : 3:19 : Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM " does not match "202309".
+ RowID  |  Type  |  Date  | Value 
+--------+--------+--------+--------
+ Row0_1 | Total  | 202309 | 11281 
+                   ^^^^^^
+Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM " does not match "202309".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM " does not match "202309".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM " does not match "202309".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text '202309' could not be parsed at index 6
+	at java.base/java.time.format.DateTimeFormatter.parseResolved0(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDate.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:506)
+	... 21 more
+2024-10-31 17:47:19,616 : ERROR : KNIME-Worker-37-String to Date&Time 3:19 :  : Node : String to Date&Time : 3:19 : Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM" does not match "202309".
+ RowID  |  Type  |  Date  | Value 
+--------+--------+--------+--------
+ Row0_1 | Total  | 202309 | 11281 
+                   ^^^^^^
+Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM" does not match "202309".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM" does not match "202309".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM" does not match "202309".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text '202309' could not be parsed: Unable to obtain LocalDate from TemporalAccessor: {Year=2023, MonthOfYear=9},ISO of type java.time.format.Parsed
+	at java.base/java.time.format.DateTimeFormatter.createError(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDate.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:506)
+	... 21 more
+Caused by: java.time.DateTimeException: Unable to obtain LocalDate from TemporalAccessor: {Year=2023, MonthOfYear=9},ISO of type java.time.format.Parsed
+	at java.base/java.time.LocalDate.from(Unknown Source)
+	at java.base/java.time.format.Parsed.query(Unknown Source)
+	... 24 more
+2024-10-31 17:48:14,703 : ERROR : KNIME-Worker-39-String to Date&Time 3:19 :  : Node : String to Date&Time : 3:19 : Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM" does not match "202309".
+ RowID  |  Type  |  Date  | Value 
+--------+--------+--------+--------
+ Row0_1 | Total  | 202309 | 11281 
+                   ^^^^^^
+Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM" does not match "202309".
+org.knime.core.node.KNIMEException$KNIMERuntimeException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM" does not match "202309".
+	at org.knime.core.node.KNIMEException.toUnchecked(KNIMEException.java:145)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:540)
+	at org.knime.core.data.container.SingleCellFactory.getCells(SingleCellFactory.java:105)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewCellsForRow(RearrangeColumnsTable.java:565)
+	at org.knime.core.data.container.RearrangeColumnsTable.calcNewColsSynchronously(RearrangeColumnsTable.java:484)
+	at org.knime.core.data.container.RearrangeColumnsTable.create(RearrangeColumnsTable.java:412)
+	at org.knime.core.data.container.BufferedTableBackend.rearrange(BufferedTableBackend.java:212)
+	at org.knime.core.node.ExecutionContext.createColumnRearrangeTable(ExecutionContext.java:467)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel.execute(StringToDateTimeNodeModel.java:335)
+	at org.knime.core.node.NodeModel.execute(NodeModel.java:812)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:588)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1286)
+	at org.knime.core.node.Node.execute(Node.java:1049)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:594)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:198)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:117)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:367)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:221)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:123)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:246)
+Caused by: org.knime.core.node.KNIMEException: Could not parse date in cell [Row0_1, column "Date", row number 1]: Pattern "yyyyMM" does not match "202309".
+	at org.knime.core.node.KNIMEException.of(KNIMEException.java:136)
+	... 22 more
+Caused by: java.time.format.DateTimeParseException: Text '202309' could not be parsed: Unable to obtain LocalDate from TemporalAccessor: {Year=2023, MonthOfYear=9},ISO of type java.time.format.Parsed
+	at java.base/java.time.format.DateTimeFormatter.createError(Unknown Source)
+	at java.base/java.time.format.DateTimeFormatter.parse(Unknown Source)
+	at java.base/java.time.LocalDate.parse(Unknown Source)
+	at org.knime.time.node.convert.stringtodatetime.StringToDateTimeNodeModel$StringToTimeCellFactory.getCell(StringToDateTimeNodeModel.java:506)
+	... 21 more
+Caused by: java.time.DateTimeException: Unable to obtain LocalDate from TemporalAccessor: {Year=2023, MonthOfYear=9},ISO of type java.time.format.Parsed
+	at java.base/java.time.LocalDate.from(Unknown Source)
+	at java.base/java.time.format.Parsed.query(Unknown Source)
+	... 24 more
+2024-10-31 17:51:25,923 : WARN  : KNIME-Worker-42-String Manipulation 3:6 :  : ColumnCalculator : String Manipulation : 3:6 : Row "Row0" contains missing value in column "Type" - returning missing (omitting further warnings)
+2024-10-31 17:51:25,926 : WARN  : KNIME-Worker-43-String Manipulation 3:20 :  : ColumnCalculator : String Manipulation : 3:20 : Row "Row0" contains missing value in column "Date" - returning missing (omitting further warnings)

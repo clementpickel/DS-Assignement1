@@ -1,0 +1,6 @@
+yyyyMM
+yyyyMM 
+yyyy-MM 
+yyyy_MM 
+yyyy"M"MM 
+yyyy'M'MM

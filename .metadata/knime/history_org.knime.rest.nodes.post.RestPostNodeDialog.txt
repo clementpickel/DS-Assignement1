@@ -1,0 +1,1 @@
+https://api.scb.se/OV0104/v1/doris/sv/ssd/START/EN/EN0108/EN0108A/Elprod
