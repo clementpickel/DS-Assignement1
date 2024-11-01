@@ -51,7 +51,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_4">
-        <entry key="column_name" type="xstring" value="Precipitation (mm)"/>
+        <entry key="column_name" type="xstring" value="Precipitation Gannarn(mm)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
