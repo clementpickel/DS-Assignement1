@@ -122,7 +122,7 @@
         </config>
         <entry key="Proxy_enabled" type="xboolean" value="true"/>
         <entry key="Use constant request body" type="xboolean" value="true"/>
-        <entry key="Constant request body" type="xstring" value="{%%00010  &quot;query&quot;: [%%00010    {%%00010      &quot;code&quot;: &quot;Tid&quot;,%%00010      &quot;selection&quot;: {%%00010        &quot;filter&quot;: &quot;item&quot;,%%00010        &quot;values&quot;: [%%00010%%00009        &quot;2024M05&quot;,%%00010%%00009        &quot;2024M06&quot;,%%00010%%00009        &quot;2024M07&quot;,%%00010%%00009        &quot;2024M08&quot;,%%00010%%00010%%00010        ]%%00010      }%%00010    }%%00010  ],%%00010  &quot;response&quot;: {%%00010    &quot;format&quot;: &quot;json&quot;%%00010  }%%00010}"/>
+        <entry key="Constant request body" type="xstring" value="{%%00010  &quot;query&quot;: [%%00010    {%%00010      &quot;code&quot;: &quot;Tid&quot;,%%00010      &quot;selection&quot;: {%%00010        &quot;filter&quot;: &quot;item&quot;,%%00010        &quot;values&quot;: [%%00010%%00009        &quot;2023M09&quot;,%%00010%%00009        &quot;2023M10&quot;,%%00010%%00009        &quot;2023M11&quot;,%%00010%%00009        &quot;2023M12&quot;,%%00010%%00009        &quot;2024M01&quot;,%%00010%%00009        &quot;2024M02&quot;,%%00010%%00009        &quot;2024M03&quot;,%%00010%%00009        &quot;2024M04&quot;,%%00010%%00009        &quot;2024M05&quot;,%%00010%%00009        &quot;2024M06&quot;,%%00010%%00009        &quot;2024M07&quot;,%%00010%%00009        &quot;2024M08&quot;,%%00010%%00010        ]%%00010      }%%00010    }%%00010  ],%%00010  &quot;response&quot;: {%%00010    &quot;format&quot;: &quot;json&quot;%%00010  }%%00010}"/>
         <entry key="Request body column" type="xstring" isnull="true" value=""/>
     </config>
     <config key="nodeAnnotation">
@@ -172,6 +172,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="42288842-74ca-40f1-b0fc-6fe933ac09d8"/>
+        <entry key="file_store_id" type="xstring" value="86978db0-aa97-40db-9ce0-3720a7c2e5cf"/>
     </config>
 </config>

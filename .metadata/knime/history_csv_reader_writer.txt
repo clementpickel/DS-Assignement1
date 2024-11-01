@@ -1,2 +1,5 @@
+https://opendata-download-metobs.smhi.se/api/version/latest/parameter/23/station/135520/period/corrected-archive/data.csv
+https://opendata-download-metobs.smhi.se/api/version/latest/parameter/23/station/148330/period/corrected-archive/data.csv
+https://opendata-download-metobs.smhi.se/api/version/latest/parameter/23/station/147570/period/corrected-archive/data.csv
 https://opendata-download-metobs.smhi.se/api/version/latest/parameter/11/station/71415/period/corrected-archive/data.csv
 C:\Users\cpick\Documents\GitHub\DS-Assignement1\globalradianGot.csv
