@@ -1,8 +1,0 @@
-https://opendata-download-metobs.smhi.se/api/version/latest/parameter/1/station/74460/period/latest-months/data.json
-https://opendata-download-metobs.smhi.se/api/version/latest/parameter/1/station/74460/period/corrected-archive/data.json
-https://opendata-download-metobs.smhi.se/api/version/latest/parameter/11/station/71415/period/latest-months/data.json
-https://opendata-download-metobs.smhi.se/api/version/latest/parameter/1/station/71415/period/latest-months/data.json
-https://opendata-download-metobs.smhi.se/api/version/latest/parameter/17/station/71415/period/latest-months/data.json
-https://opendata-download-metobs.smhi.se/api/version/latest/parameter/17/station/74460/period/latest-months/data.json
-https://opendata-download-metobs.smhi.se/api/version/latest/parameter/39/station/74460/period/latest-months/data.json
-https://opendata-download-metobs.smhi.se/api/version/latest/parameter/21/station/74460/period/latest-months/data.json

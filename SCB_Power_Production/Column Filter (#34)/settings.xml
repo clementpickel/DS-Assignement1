@@ -11,7 +11,7 @@
             <config key="included_names">
                 <entry key="array-size" type="xint" value="2"/>
                 <entry key="0" type="xstring" value="Date"/>
-                <entry key="1" type="xstring" value="Precipitation Strömsund(mm)"/>
+                <entry key="1" type="xstring" value="Precipitation Sollefteå(mm)"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="4"/>
@@ -69,12 +69,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 354, Cols: 2"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 739, Cols: 2"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="bda5ed90-e882-4242-8a91-914629940c0f"/>
+        <entry key="file_store_id" type="xstring" value="9ed62345-f60a-4c1d-935d-941cf4669c00"/>
     </config>
 </config>

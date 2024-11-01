@@ -27,7 +27,7 @@
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="CUSTOM_URL"/>
                     <entry key="file_system_specifier" type="xstring" value="10000"/>
-                    <entry key="path" type="xstring" value="https://opendata-download-metobs.smhi.se/api/version/latest/parameter/23/station/135520/period/corrected-archive/data.csv"/>
+                    <entry key="path" type="xstring" value="https://opendata-download-metobs.smhi.se/api/version/latest/parameter/23/station/137100/period/corrected-archive/data.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -71,10 +71,10 @@
         <config key="table_spec_config_Internals">
             <entry key="version" type="xstring" value="V4_4"/>
             <config key="individual_specs">
-                <config key="/api/version/latest/parameter/23/station/135520/period/corrected-archive/data.csv">
+                <config key="/api/version/latest/parameter/23/station/137100/period/corrected-archive/data.csv">
                     <entry key="num_columns" type="xint" value="1"/>
                     <config key="0">
-                        <entry key="name" type="xstring" value="1950-02-01 06:00:01;1950-03-01 06:00:00;1950-02;18.2;G"/>
+                        <entry key="name" type="xstring" value="1962-02-01 06:00:01;1962-03-01 06:00:00;1962-02;33.4;Y"/>
                         <entry key="has_type" type="xboolean" value="true"/>
                         <config key="type">
                             <entry key="class" type="xstring" value="java.lang.String"/>
@@ -86,13 +86,13 @@
                 <config key="columns">
                     <config key="0">
                         <config key="external_spec">
-                            <entry key="name" type="xstring" value="1950-02-01 06:00:01;1950-03-01 06:00:00;1950-02;18.2;G"/>
+                            <entry key="name" type="xstring" value="1962-02-01 06:00:01;1962-03-01 06:00:00;1962-02;33.4;Y"/>
                             <entry key="has_type" type="xboolean" value="true"/>
                             <config key="type">
                                 <entry key="class" type="xstring" value="java.lang.String"/>
                             </config>
                         </config>
-                        <entry key="name" type="xstring" value="1950-02-01 06:00:01;1950-03-01 06:00:00;1950-02;18.2;G"/>
+                        <entry key="name" type="xstring" value="1962-02-01 06:00:01;1962-03-01 06:00:00;1962-02;33.4;Y"/>
                         <entry key="keep" type="xboolean" value="true"/>
                         <entry key="position" type="xint" value="0"/>
                         <config key="production_path">
@@ -123,7 +123,7 @@
                     <entry key="force_type" type="xboolean" value="false"/>
                 </config>
             </config>
-            <entry key="source_group_id" type="xstring" value="https://opendata-download-metobs.smhi.se/api/version/latest/parameter/23/station/135520/period/corrected-archive/data.csv"/>
+            <entry key="source_group_id" type="xstring" value="https://opendata-download-metobs.smhi.se/api/version/latest/parameter/23/station/137100/period/corrected-archive/data.csv"/>
             <config key="config_id">
                 <config key="multi_table_read">
                     <config key="settings">
@@ -227,12 +227,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 354, Cols: 1"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 739, Cols: 1"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="cd37605c-5a53-4c79-88b4-47a4cc522c28"/>
+        <entry key="file_store_id" type="xstring" value="6580a503-13ec-417d-8176-ae7e6cb5675a"/>
     </config>
 </config>

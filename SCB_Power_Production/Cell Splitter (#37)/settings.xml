@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="colName" type="xstring" value="1950-02-01 06:00:01;1950-03-01 06:00:00;1950-02;18.2;G"/>
+        <entry key="colName" type="xstring" value="1962-02-01 06:00:01;1962-03-01 06:00:00;1962-02;33.4;Y"/>
         <entry key="delimiter" type="xstring" value=";"/>
         <entry key="guessNumOfCols" type="xboolean" value="true"/>
         <entry key="numberOfCols" type="xint" value="6"/>
@@ -44,12 +44,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 354, Cols: 6"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 739, Cols: 6"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="7785d524-b71d-467c-a179-4c094ef8bacc"/>
+        <entry key="file_store_id" type="xstring" value="2f96428c-6970-463e-9880-fa9d3ed34839"/>
     </config>
 </config>

@@ -15,8 +15,8 @@
         </config>
         <entry key="dataCellComparisonMode" type="xstring" value="STRICT"/>
         <entry key="includeMatchesInOutput" type="xboolean" value="true"/>
-        <entry key="includeLeftUnmatchedInOutput" type="xboolean" value="false"/>
-        <entry key="includeRightUnmatchedInOutput" type="xboolean" value="false"/>
+        <entry key="includeLeftUnmatchedInOutput" type="xboolean" value="true"/>
+        <entry key="includeRightUnmatchedInOutput" type="xboolean" value="true"/>
         <config key="leftColumnSelectionConfig">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
@@ -42,14 +42,15 @@
         <config key="rightColumnSelectionConfig">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="3"/>
+                <entry key="array-size" type="xint" value="5"/>
                 <entry key="0" type="xstring" value="Precipitation (mm)"/>
                 <entry key="1" type="xstring" value="PrecipitationQuality"/>
                 <entry key="2" type="xstring" value="Precipitation Lycksele(mm)"/>
+                <entry key="3" type="xstring" value="Date"/>
+                <entry key="4" type="xstring" value="Precipitation Strömsund(mm)"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Date"/>
+                <entry key="array-size" type="xint" value="0"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -62,7 +63,7 @@
                 <config key="typelist"/>
             </config>
         </config>
-        <entry key="mergeJoinColumns" type="xboolean" value="false"/>
+        <entry key="mergeJoinColumns" type="xboolean" value="true"/>
         <entry key="duplicateHandling" type="xstring" value="APPEND_SUFFIX"/>
         <entry key="suffix" type="xstring" value=" (Right)"/>
         <entry key="outputUnmatchedRowsToSeparatePorts" type="xboolean" value="false"/>
@@ -94,7 +95,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 351, Cols: 4"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 915, Cols: 4"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -118,6 +119,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ac5674a9-d2a5-4499-b704-e437b9aa4880"/>
+        <entry key="file_store_id" type="xstring" value="736305b7-e74a-469b-b91f-187dd0f22b74"/>
     </config>
 </config>
