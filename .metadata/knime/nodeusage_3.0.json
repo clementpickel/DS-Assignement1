@@ -36,12 +36,12 @@
             {
                 "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
                 "nodename": "Column Filter",
-                "nrexecs": 24,
+                "nrexecs": 25,
                 "nrfails": 0,
                 "exectime": 6,
                 "nrcreated": 1,
-                "successor": "org.knime.time.node.convert.timestamptodatetime.TimestampToDateTimeNodeFactory",
-                "successornodename": "UNIX Timestamp to Date&Time"
+                "successor": "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory",
+                "successornodename": "Column Renamer"
             },
             {
                 "id": "org.knime.time.node.convert.timestamptodatetime.TimestampToDateTimeNodeFactory",
@@ -96,9 +96,9 @@
             {
                 "id": "org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory",
                 "nodename": "CSV Reader",
-                "nrexecs": 1,
+                "nrexecs": 2,
                 "nrfails": 10,
-                "exectime": 4594,
+                "exectime": 10231,
                 "nrcreated": 1,
                 "successor": "org.knime.base.node.preproc.cellsplit2.CellSplitter2NodeFactory",
                 "successornodename": "Cell Splitter"
@@ -106,9 +106,19 @@
             {
                 "id": "org.knime.base.node.preproc.cellsplit2.CellSplitter2NodeFactory",
                 "nodename": "Cell Splitter",
-                "nrexecs": 0,
+                "nrexecs": 1,
                 "nrfails": 0,
-                "exectime": 0,
+                "exectime": 3110,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
+                "successornodename": "Column Filter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory",
+                "nodename": "Column Renamer",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 1,
                 "nrcreated": 1,
                 "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory",
                 "successornodename": "Column Filter"
@@ -119,10 +129,10 @@
         "wrappedNodes": {
         },
         "createdVia": {
-            "WEB_UI": 7
+            "WEB_UI": 8
         }
     },
-    "uptime": 2514082,
+    "uptime": 3987362,
     "workflowsOpened": 3,
     "remoteWorkflowsOpened": 0,
     "columnarStorageWorkflowsOpened": 0,
@@ -133,7 +143,7 @@
     "lastUsedPerspective": "none",
     "launches": 3,
     "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
-    "timeSinceLastStart": 1551456,
+    "timeSinceLastStart": 5971296,
     "crashes": 0,
     "properlyShutDown": false
 }
