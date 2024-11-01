@@ -1,6 +1,5 @@
 import requests
 
-# Dictionary mapping parameter IDs to names and descriptions
 parameter_info = {
     1: "Air Temperature, Instantaneous value, once per hour, Celsius",
     2: "Air Temperature, Daily average, once daily at 00:00, Celsius",
@@ -43,16 +42,15 @@ parameter_info = {
     39: "Dew Point Temperature, Instantaneous value, once per hour, Celsius",
     40: "Ground Condition, Instantaneous value, once daily at 06:00, code"
 }
+# good stations: 98210(Stockholm), 71420(Goteborg), 74380(Wind good, Visby, Gotland), 62400 (Sundsvall, center of Sweden)
+# for dam in north and center of sweden: 147570 (Gannarn), 148330(Lycksele), 137100 (Sollefteå), 135520 (Strömsund)
 
-# Base URL pattern
-base_url = "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/{}/station/71415/period/corrected-archive/data.csv"
+base_url = "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/{}/station/135520/period/corrected-archive.csv"
 
-# Loop through parameter IDs from 1 to 40
 for param_id in range(1, 41):
     url = base_url.format(param_id)
     response = requests.get(url)
     
-    # Check if the response is successful
     if response.status_code == 200:
         param_description = parameter_info.get(param_id, "Unknown parameter")
         print(f"Parameter {param_id} returned status 200. {param_description}")
