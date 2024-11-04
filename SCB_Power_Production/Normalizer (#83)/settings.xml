@@ -34,6 +34,21 @@
         <entry key="new-max" type="xdouble" value="1.0"/>
     </config>
     <config key="variables"/>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Normalize so the%%00010data is readeable"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory"/>
@@ -55,14 +70,14 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 43, Cols: 6"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 43, Cols: 7"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.base.data.normalize.NormalizerPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="Min/Max (0.0, 1) normalization on 2 column(s)"/>
+            <entry key="port_object_summary" type="xstring" value="Min/Max (0.0, 1) normalization on 3 column(s)"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
@@ -70,6 +85,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="2a7791ff-94da-4238-83e8-6b5612392d8e"/>
+        <entry key="file_store_id" type="xstring" value="d5f440ed-ab06-4783-9d32-d9598ea05962"/>
     </config>
 </config>
