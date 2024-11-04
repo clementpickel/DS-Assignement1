@@ -6,27 +6,25 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="expression" type="xstring" value="join($Date$, &quot;-01&quot;)%%00010"/>
-        <entry key="replaced_column" type="xstring" value="Date"/>
-        <entry key="append_column" type="xboolean" value="true"/>
-        <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
-        <entry key="insert_missing_as_null" type="xboolean" value="false"/>
-        <entry key="return_type" type="xstring" value="java.lang.String"/>
+        <entry key="append_column" type="xboolean" value="false"/>
+        <entry key="replaced_column" type="xstring" value="Average Precipitation (mm)"/>
+        <entry key="expression" type="xstring" value="($Precipitation Lycksele(mm)$ + $Precipitation Sollefteå(mm)$)/2"/>
+        <entry key="convert_to_int" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory"/>
-    <entry key="node-name" type="xstring" value="String Manipulation"/>
-    <entry key="node-bundle-name" type="xstring" value="KNIME Java Snippet Nodes"/>
-    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.jsnippets"/>
+    <entry key="factory" type="xstring" value="org.knime.ext.jep.JEPNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Math Formula"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Math Expression Node"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.jep"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.3.0.v202406141017"/>
-    <entry key="node-feature-name" type="xstring" value="KNIME Javasnippet"/>
-    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.javasnippet.feature.group"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.0.v202404241821"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Math Expression (JEP)"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.jep.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.0.v202406141017"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.0.v202404241821"/>
     <config key="factory_settings"/>
-    <entry key="name" type="xstring" value="String Manipulation"/>
+    <entry key="name" type="xstring" value="Math Formula"/>
     <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
@@ -34,12 +32,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 915, Cols: 3"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 30, Cols: 6"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="8aebea32-97ab-43da-bb57-fc226a36afaf"/>
+        <entry key="file_store_id" type="xstring" value="2ba2297d-ec3a-464a-8baa-d94182686cf0"/>
     </config>
 </config>
