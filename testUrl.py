@@ -43,9 +43,9 @@ parameter_info = {
     40: "Ground Condition, Instantaneous value, once daily at 06:00, code"
 }
 # good stations: 98210(Stockholm), 71420(Goteborg), 74380(Wind good, Visby, Gotland), 62400 (Sundsvall, center of Sweden)
-# for dam in north and center of sweden: 147570 (Gannarn), 148330(Lycksele), 137100 (Sollefteå), 135520 (Strömsund)
+# for dam in north and center of sweden: 147570 (Gannarn), 148330(Lycksele), 137100 (Sollefteå), 135520 (Strömsund), 157870 (Buresjön), 157790 (     D)
 
-base_url = "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/{}/station/155910/period/corrected-archive.csv"
+base_url = "https://opendata-download-metobs.smhi.se/api/version/latest/parameter/{}/station/155960/period/corrected-archive/data.csv"
 
 for param_id in range(1, 41):
     url = base_url.format(param_id)

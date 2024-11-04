@@ -8,27 +8,27 @@
     <config key="model">
         <config key="renamings">
             <config key="0">
-                <entry key="oldName" type="xstring" value="1948-04-01 06:00:01;1948-05-01 06:00:00;1948-04;13.9;G"/>
+                <entry key="oldName" type="xstring" value="1959-03-01 06:00:01;1959-04-01 06:00:00;1959-03;38.0;Y"/>
                 <entry key="newName" type="xstring" value="default"/>
             </config>
             <config key="1">
-                <entry key="oldName" type="xstring" value="1948-04-01 06:00:01;1948-05-01 06:00:00;1948-04;13.9;G_Arr[0]"/>
+                <entry key="oldName" type="xstring" value="1959-03-01 06:00:01;1959-04-01 06:00:00;1959-03;38.0;Y_Arr[0]"/>
                 <entry key="newName" type="xstring" value="suppr1"/>
             </config>
             <config key="2">
-                <entry key="oldName" type="xstring" value="1948-04-01 06:00:01;1948-05-01 06:00:00;1948-04;13.9;G_Arr[1]"/>
+                <entry key="oldName" type="xstring" value="1959-03-01 06:00:01;1959-04-01 06:00:00;1959-03;38.0;Y_Arr[1]"/>
                 <entry key="newName" type="xstring" value="suppr2"/>
             </config>
             <config key="3">
-                <entry key="oldName" type="xstring" value="1948-04-01 06:00:01;1948-05-01 06:00:00;1948-04;13.9;G_Arr[2]"/>
+                <entry key="oldName" type="xstring" value="1959-03-01 06:00:01;1959-04-01 06:00:00;1959-03;38.0;Y_Arr[2]"/>
                 <entry key="newName" type="xstring" value="Date"/>
             </config>
             <config key="4">
-                <entry key="oldName" type="xstring" value="1948-04-01 06:00:01;1948-05-01 06:00:00;1948-04;13.9;G_Arr[3]"/>
-                <entry key="newName" type="xstring" value="Precipitation Gannarn(mm)"/>
+                <entry key="oldName" type="xstring" value="1959-03-01 06:00:01;1959-04-01 06:00:00;1959-03;38.0;Y_Arr[3]"/>
+                <entry key="newName" type="xstring" value="Precipitation Umeå-Röbäcksdalen(mm)"/>
             </config>
             <config key="5">
-                <entry key="oldName" type="xstring" value="1948-04-01 06:00:01;1948-05-01 06:00:00;1948-04;13.9;G_Arr[4]"/>
+                <entry key="oldName" type="xstring" value="1959-03-01 06:00:01;1959-04-01 06:00:00;1959-03;38.0;Y_Arr[4]"/>
                 <entry key="newName" type="xstring" value="PrecipitationQuality"/>
             </config>
         </config>
@@ -55,12 +55,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 805, Cols: 6"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 671, Cols: 6"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="11edc55c-bcaf-4502-9e3a-6cd6ec612d10"/>
+        <entry key="file_store_id" type="xstring" value="bfc9df76-a9c6-41f2-838d-bbd478fa3723"/>
     </config>
 </config>
