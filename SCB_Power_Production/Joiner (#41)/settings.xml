@@ -13,7 +13,7 @@
                 <entry key="rightTableColumn" type="xstring" value="Date"/>
             </config>
         </config>
-        <entry key="dataCellComparisonMode" type="xstring" value="STRICT"/>
+        <entry key="dataCellComparisonMode" type="xstring" value="STRING"/>
         <entry key="includeMatchesInOutput" type="xboolean" value="true"/>
         <entry key="includeLeftUnmatchedInOutput" type="xboolean" value="false"/>
         <entry key="includeRightUnmatchedInOutput" type="xboolean" value="false"/>
@@ -42,14 +42,24 @@
         <config key="rightColumnSelectionConfig">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="3"/>
+                <entry key="array-size" type="xint" value="14"/>
                 <entry key="0" type="xstring" value="Precipitation Gannarn(mm)"/>
-                <entry key="1" type="xstring" value="Precipitation Lycksele(mm)"/>
-                <entry key="2" type="xstring" value="Precipitation Strömsund(mm)"/>
+                <entry key="1" type="xstring" value="Precipitation Strömsund(mm)"/>
+                <entry key="2" type="xstring" value="Date"/>
+                <entry key="3" type="xstring" value="Precipitation Lycksele(mm)"/>
+                <entry key="4" type="xstring" value="Precipitation Sollefteå(mm)"/>
+                <entry key="5" type="xstring" value="Precipitation Gargnäs(mm)"/>
+                <entry key="6" type="xstring" value="Hour"/>
+                <entry key="7" type="xstring" value="Wind Speed Malmo (m/s)"/>
+                <entry key="8" type="xstring" value="Wind Speed Väderöarna (m/s)"/>
+                <entry key="9" type="xstring" value="Global Irradiance Lund(w/m2)"/>
+                <entry key="10" type="xstring" value="Global Irradiance Goteborg(w/m2)"/>
+                <entry key="11" type="xstring" value="Global Irradiance Stockholm(w/m2)"/>
+                <entry key="12" type="xstring" value="Date &amp; Time"/>
+                <entry key="13" type="xstring" value="Average Precipitation (mm)"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Date"/>
+                <entry key="array-size" type="xint" value="0"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -62,7 +72,7 @@
                 <config key="typelist"/>
             </config>
         </config>
-        <entry key="mergeJoinColumns" type="xboolean" value="false"/>
+        <entry key="mergeJoinColumns" type="xboolean" value="true"/>
         <entry key="duplicateHandling" type="xstring" value="APPEND_SUFFIX"/>
         <entry key="suffix" type="xstring" value=" (Right)"/>
         <entry key="outputUnmatchedRowsToSeparatePorts" type="xboolean" value="false"/>
@@ -109,7 +119,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 301, Cols: 7"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 301, Cols: 13"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -133,6 +143,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="698d37aa-69d7-4542-a00b-42985edef968"/>
+        <entry key="file_store_id" type="xstring" value="a45b739c-1f0d-4eda-a87a-e155bd8a2222"/>
     </config>
 </config>
