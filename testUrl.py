@@ -52,7 +52,7 @@ for param_id in range(1, 41):
     response = requests.get(url)
     
     if response.status_code == 200:
-        param_description = parameter_info.get(param_id, "Unknown parameter")
+        param_description = parameter_info.get(param_id, "Unknown parameter")&
         print(f"Parameter {param_id} returned status 200. {param_description}")
     else:
         print(f"Parameter {param_id} returned status {response.status_code}.")
