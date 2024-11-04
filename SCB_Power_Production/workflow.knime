@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="stanic"/>
         <entry key="authored-when" type="xstring" value="2021-09-17 10:29:01 +0200"/>
         <entry key="lastEdited-by" type="xstring" value="cpick"/>
-        <entry key="lastEdited-when" type="xstring" value="2024-11-04 19:44:25 +0100"/>
+        <entry key="lastEdited-when" type="xstring" value="2024-11-04 19:52:36 +0100"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -1426,6 +1426,22 @@
                 </config>
             </config>
         </config>
+        <config key="node_127">
+            <entry key="id" type="xint" value="127"/>
+            <entry key="node_settings_file" type="xstring" value="Column Renamer (#127)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="2980"/>
+                    <entry key="1" type="xint" value="1969"/>
+                    <entry key="2" type="xint" value="-1"/>
+                    <entry key="3" type="xint" value="-1"/>
+                </config>
+            </config>
+        </config>
     </config>
     <config key="connections">
         <config key="connection_0">
@@ -1996,7 +2012,7 @@
         </config>
         <config key="connection_70">
             <entry key="sourceID" type="xint" value="121"/>
-            <entry key="destID" type="xint" value="120"/>
+            <entry key="destID" type="xint" value="127"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
@@ -2017,6 +2033,12 @@
             <entry key="destID" type="xint" value="116"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="2"/>
+        </config>
+        <config key="connection_74">
+            <entry key="sourceID" type="xint" value="127"/>
+            <entry key="destID" type="xint" value="120"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
         </config>
     </config>
     <config key="workflow_editor_settings">
