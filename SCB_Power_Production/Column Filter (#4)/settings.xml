@@ -28,19 +28,11 @@
                 <entry key="excludeMatching" type="xboolean" value="false"/>
             </config>
             <config key="datatype">
-                <config key="typelist">
-                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.json.JSONValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.collection.ListDataValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
-                </config>
+                <config key="typelist"/>
             </config>
         </config>
     </config>
+    <config key="variables"/>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value=""/>
         <entry key="contentType" type="xstring" value="text/plain"/>
@@ -83,6 +75,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="5c286f10-e9c2-431e-8473-62e377bccbfe"/>
+        <entry key="file_store_id" type="xstring" value="ce547bcc-cecc-460d-8292-4a09a82e05c5"/>
     </config>
 </config>

@@ -78,11 +78,7 @@
     </config>
     <config key="view_variables"/>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="EXECUTED"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="There are rows with missing values in one of the selected frequency columns. These frequencies are not displayed for this row."/>
-    </config>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
     <entry key="factory" type="xstring" value="org.knime.base.views.node.barchart.BarChartNodeFactory"/>
     <entry key="node-name" type="xstring" value="Bar Chart"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Views"/>
@@ -99,26 +95,11 @@
         <config key="Output Image"/>
     </config>
     <entry key="name" type="xstring" value="Bar Chart"/>
-    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports"/>
-    <config key="internalObjects">
-        <entry key="location" type="xstring" value="internalTables"/>
-        <config key="content">
-            <config key="object_0">
-                <entry key="index" type="xint" value="0"/>
-                <entry key="type" type="xstring" value="table"/>
-                <entry key="table_dir_location" type="xstring" value="object_0"/>
-            </config>
-            <config key="object_1">
-                <entry key="index" type="xint" value="1"/>
-                <entry key="type" type="xstring" value="table"/>
-                <entry key="table_dir_location" type="xstring" value="object_1"/>
-            </config>
-        </config>
-    </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="de797dfd-9b94-47a1-a816-bc62c39bad71"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>

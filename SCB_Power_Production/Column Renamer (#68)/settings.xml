@@ -8,23 +8,23 @@
     <config key="model">
         <config key="renamings">
             <config key="0">
-                <entry key="oldName" type="xstring" value="1990-01-02;15:00:00;2.0;G"/>
+                <entry key="oldName" type="xstring" value="1995-12-20;00:00:00;12.1;Y"/>
                 <entry key="newName" type="xstring" value="default"/>
             </config>
             <config key="1">
-                <entry key="oldName" type="xstring" value="1990-01-02;15:00:00;2.0;G_Arr[0]"/>
+                <entry key="oldName" type="xstring" value="1995-12-20;00:00:00;12.1;Y_Arr[0]"/>
                 <entry key="newName" type="xstring" value="Date"/>
             </config>
             <config key="2">
-                <entry key="oldName" type="xstring" value="1990-01-02;15:00:00;2.0;G_Arr[1]"/>
+                <entry key="oldName" type="xstring" value="1995-12-20;00:00:00;12.1;Y_Arr[1]"/>
                 <entry key="newName" type="xstring" value="Hour"/>
             </config>
             <config key="3">
-                <entry key="oldName" type="xstring" value="1990-01-02;15:00:00;2.0;G_Arr[2]"/>
-                <entry key="newName" type="xstring" value="Wind Speed Malmo (m/s)"/>
+                <entry key="oldName" type="xstring" value="1995-12-20;00:00:00;12.1;Y_Arr[2]"/>
+                <entry key="newName" type="xstring" value="Wind Speed Bjuröklubb A (m/s)"/>
             </config>
             <config key="4">
-                <entry key="oldName" type="xstring" value="1990-01-02;15:00:00;2.0;G_Arr[3]"/>
+                <entry key="oldName" type="xstring" value="1995-12-20;00:00:00;12.1;Y_Arr[3]"/>
                 <entry key="newName" type="xstring" value="Wind Speed Quality"/>
             </config>
         </config>
@@ -51,12 +51,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 299121, Cols: 5"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 244444, Cols: 5"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="f0b57760-725b-41a0-8fe1-f6ac25f205a9"/>
+        <entry key="file_store_id" type="xstring" value="295b5278-d0dd-40de-a8d1-002719d7acd8"/>
     </config>
 </config>

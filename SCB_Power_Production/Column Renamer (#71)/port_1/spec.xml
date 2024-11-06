@@ -40,31 +40,31 @@
                 <config key="0">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="00:00:00"/>
+                        <entry key="StringCell" type="xstring" value="12:00:00"/>
                     </config>
                 </config>
                 <config key="1">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="06:00:00"/>
+                        <entry key="StringCell" type="xstring" value="18:00:00"/>
                     </config>
                 </config>
                 <config key="2">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="12:00:00"/>
+                        <entry key="StringCell" type="xstring" value="06:00:00"/>
                     </config>
                 </config>
                 <config key="3">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="18:00:00"/>
+                        <entry key="StringCell" type="xstring" value="00:00:00"/>
                     </config>
                 </config>
                 <config key="4">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="21:00:00"/>
+                        <entry key="StringCell" type="xstring" value="03:00:00"/>
                     </config>
                 </config>
                 <config key="5">
@@ -82,103 +82,103 @@
                 <config key="7">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="03:00:00"/>
+                        <entry key="StringCell" type="xstring" value="21:00:00"/>
                     </config>
                 </config>
                 <config key="8">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="05:00:00"/>
+                        <entry key="StringCell" type="xstring" value="08:00:00"/>
                     </config>
                 </config>
                 <config key="9">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="11:00:00"/>
+                        <entry key="StringCell" type="xstring" value="10:00:00"/>
                     </config>
                 </config>
                 <config key="10">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="08:00:00"/>
+                        <entry key="StringCell" type="xstring" value="11:00:00"/>
                     </config>
                 </config>
                 <config key="11">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="01:00:00"/>
+                        <entry key="StringCell" type="xstring" value="13:00:00"/>
                     </config>
                 </config>
                 <config key="12">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="02:00:00"/>
+                        <entry key="StringCell" type="xstring" value="16:00:00"/>
                     </config>
                 </config>
                 <config key="13">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="04:00:00"/>
+                        <entry key="StringCell" type="xstring" value="17:00:00"/>
                     </config>
                 </config>
                 <config key="14">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="07:00:00"/>
+                        <entry key="StringCell" type="xstring" value="19:00:00"/>
                     </config>
                 </config>
                 <config key="15">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="10:00:00"/>
+                        <entry key="StringCell" type="xstring" value="20:00:00"/>
                     </config>
                 </config>
                 <config key="16">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="13:00:00"/>
+                        <entry key="StringCell" type="xstring" value="22:00:00"/>
                     </config>
                 </config>
                 <config key="17">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="14:00:00"/>
+                        <entry key="StringCell" type="xstring" value="23:00:00"/>
                     </config>
                 </config>
                 <config key="18">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="16:00:00"/>
+                        <entry key="StringCell" type="xstring" value="01:00:00"/>
                     </config>
                 </config>
                 <config key="19">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="17:00:00"/>
+                        <entry key="StringCell" type="xstring" value="04:00:00"/>
                     </config>
                 </config>
                 <config key="20">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="19:00:00"/>
+                        <entry key="StringCell" type="xstring" value="05:00:00"/>
                     </config>
                 </config>
                 <config key="21">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="20:00:00"/>
+                        <entry key="StringCell" type="xstring" value="14:00:00"/>
                     </config>
                 </config>
                 <config key="22">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="22:00:00"/>
+                        <entry key="StringCell" type="xstring" value="07:00:00"/>
                     </config>
                 </config>
                 <config key="23">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="23:00:00"/>
+                        <entry key="StringCell" type="xstring" value="02:00:00"/>
                     </config>
                 </config>
             </config>
@@ -187,7 +187,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_3">
-        <entry key="column_name" type="xstring" value="Wind Speed Väderöarna (m/s)"/>
+        <entry key="column_name" type="xstring" value="Wind Speed Lycksele (m/s)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -204,7 +204,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="30.1"/>
+                    <entry key="DoubleCell" type="xdouble" value="19.0"/>
                 </config>
             </config>
         </config>
