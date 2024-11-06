@@ -24,8 +24,8 @@
         <config key="yAxisColumn">
             <config key="selected_Internals">
                 <entry key="array-size" type="xint" value="2"/>
-                <entry key="0" type="xstring" value="Value"/>
-                <entry key="1" type="xstring" value="Average Precipitation (mm)"/>
+                <entry key="0" type="xstring" value="Water power (Norm.)"/>
+                <entry key="1" type="xstring" value="Average Precipitation (Norm.)"/>
             </config>
             <entry key="mode" type="xstring" value="MANUAL"/>
             <config key="patternFilter">
@@ -36,15 +36,13 @@
             <config key="manualFilter">
                 <config key="manuallySelected">
                     <entry key="array-size" type="xint" value="2"/>
-                    <entry key="0" type="xstring" value="Value"/>
-                    <entry key="1" type="xstring" value="Average Precipitation (mm)"/>
+                    <entry key="0" type="xstring" value="Water power (Norm.)"/>
+                    <entry key="1" type="xstring" value="Average Precipitation (Norm.)"/>
                 </config>
                 <config key="manuallyDeselected">
-                    <entry key="array-size" type="xint" value="2"/>
-                    <entry key="0" type="xstring" value="Precipitation Lycksele(mm)"/>
-                    <entry key="1" type="xstring" value="Precipitation Sollefteå(mm)"/>
+                    <entry key="array-size" type="xint" value="0"/>
                 </config>
-                <entry key="includeUnknownColumns" type="xboolean" value="false"/>
+                <entry key="includeUnknownColumns" type="xboolean" value="true"/>
             </config>
             <config key="typeFilter">
                 <config key="selectedTypes">
@@ -124,6 +122,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="b28210f0-8103-42ee-9f59-5533d6d73b17"/>
+        <entry key="file_store_id" type="xstring" value="7bf17419-588a-442a-9f37-5c87f12de559"/>
     </config>
 </config>

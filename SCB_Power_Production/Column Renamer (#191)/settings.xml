@@ -11,6 +11,14 @@
                 <entry key="oldName" type="xstring" value="Date=DatePrefix"/>
                 <entry key="newName" type="xstring" value="Date"/>
             </config>
+            <config key="1">
+                <entry key="oldName" type="xstring" value="Value"/>
+                <entry key="newName" type="xstring" value="Water power (Norm.)"/>
+            </config>
+            <config key="2">
+                <entry key="oldName" type="xstring" value="Average Precipitation (mm)"/>
+                <entry key="newName" type="xstring" value="Average Precipitation (Norm.)"/>
+            </config>
         </config>
     </config>
     <config key="variables"/>
@@ -41,6 +49,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="d8899946-2930-447c-bfb7-30a1643c76c2"/>
+        <entry key="file_store_id" type="xstring" value="3d14f9fd-7b60-44b7-afac-154f45c61cce"/>
     </config>
 </config>

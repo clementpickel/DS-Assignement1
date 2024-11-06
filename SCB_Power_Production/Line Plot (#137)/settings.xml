@@ -23,9 +23,11 @@
         </config>
         <config key="yAxisColumn">
             <config key="selected_Internals">
-                <entry key="array-size" type="xint" value="2"/>
-                <entry key="0" type="xstring" value="Energy Production"/>
-                <entry key="1" type="xstring" value="Irradiance (w/m2)"/>
+                <entry key="array-size" type="xint" value="4"/>
+                <entry key="0" type="xstring" value="Electricity (GWh)"/>
+                <entry key="1" type="xstring" value="Mean of Wind Speed (m/s)"/>
+                <entry key="2" type="xstring" value="Median of Wind Speed (m/s)"/>
+                <entry key="3" type="xstring" value="Sum of Wind Speed (m/s)"/>
             </config>
             <entry key="mode" type="xstring" value="MANUAL"/>
             <config key="patternFilter">
@@ -35,9 +37,11 @@
             </config>
             <config key="manualFilter">
                 <config key="manuallySelected">
-                    <entry key="array-size" type="xint" value="2"/>
-                    <entry key="0" type="xstring" value="Energy Production"/>
-                    <entry key="1" type="xstring" value="Irradiance (w/m2)"/>
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xstring" value="Electricity (GWh)"/>
+                    <entry key="1" type="xstring" value="Mean of Wind Speed (m/s)"/>
+                    <entry key="2" type="xstring" value="Median of Wind Speed (m/s)"/>
+                    <entry key="3" type="xstring" value="Sum of Wind Speed (m/s)"/>
                 </config>
                 <config key="manuallyDeselected">
                     <entry key="array-size" type="xint" value="0"/>
@@ -62,7 +66,7 @@
         <entry key="useCustomXAxisLabel" type="xboolean" value="false"/>
         <entry key="customXAxisLabel" type="xstring" isnull="true" value=""/>
         <entry key="useCustomYAxisLabel" type="xboolean" value="true"/>
-        <entry key="customYAxisLabel" type="xstring" value="Electricity (GWh) and Wind Speed(m/s)"/>
+        <entry key="customYAxisLabel" type="xstring" value="Electricity (Norm.) and Wind Speed(Norm.)"/>
         <entry key="yAxisScale" type="xstring" value="VALUE"/>
         <entry key="lineSize" type="xint" value="2"/>
         <entry key="showDataPointMarkers" type="xboolean" value="false"/>

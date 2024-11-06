@@ -82,7 +82,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_2">
-        <entry key="column_name" type="xstring" value="Value"/>
+        <entry key="column_name" type="xstring" value="Water power (Norm.)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -107,7 +107,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_3">
-        <entry key="column_name" type="xstring" value="Average Precipitation (mm)"/>
+        <entry key="column_name" type="xstring" value="Average Precipitation (Norm.)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
