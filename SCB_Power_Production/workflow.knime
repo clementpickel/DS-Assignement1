@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="stanic"/>
         <entry key="authored-when" type="xstring" value="2021-09-17 10:29:01 +0200"/>
         <entry key="lastEdited-by" type="xstring" value="cpick"/>
-        <entry key="lastEdited-when" type="xstring" value="2024-11-06 17:45:38 +0100"/>
+        <entry key="lastEdited-when" type="xstring" value="2024-11-06 17:51:32 +0100"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -48,9 +48,9 @@
             <entry key="text" type="xstring" value="&lt;h5 style=&quot;text-align: center&quot;&gt;Merge with Water power and Total data&lt;/h5&gt;"/>
             <entry key="contentType" type="xstring" value="text/html"/>
             <entry key="bgcolor" type="xint" value="16777215"/>
-            <entry key="x-coordinate" type="xint" value="2130"/>
+            <entry key="x-coordinate" type="xint" value="2095"/>
             <entry key="y-coordinate" type="xint" value="750"/>
-            <entry key="width" type="xint" value="285"/>
+            <entry key="width" type="xint" value="320"/>
             <entry key="height" type="xint" value="430"/>
             <entry key="alignment" type="xstring" value="LEFT"/>
             <entry key="borderSize" type="xint" value="10"/>
@@ -125,7 +125,7 @@
             <entry key="bgcolor" type="xint" value="16777215"/>
             <entry key="x-coordinate" type="xint" value="1590"/>
             <entry key="y-coordinate" type="xint" value="750"/>
-            <entry key="width" type="xint" value="535"/>
+            <entry key="width" type="xint" value="500"/>
             <entry key="height" type="xint" value="430"/>
             <entry key="alignment" type="xstring" value="LEFT"/>
             <entry key="borderSize" type="xint" value="10"/>
@@ -586,7 +586,7 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="2175"/>
+                    <entry key="0" type="xint" value="2125"/>
                     <entry key="1" type="xint" value="939"/>
                     <entry key="2" type="xint" value="-1"/>
                     <entry key="3" type="xint" value="-1"/>
@@ -938,7 +938,7 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="1800"/>
+                    <entry key="0" type="xint" value="1780"/>
                     <entry key="1" type="xint" value="954"/>
                     <entry key="2" type="xint" value="-1"/>
                     <entry key="3" type="xint" value="-1"/>
@@ -1436,22 +1436,6 @@
                     <entry key="array-size" type="xint" value="4"/>
                     <entry key="0" type="xint" value="2980"/>
                     <entry key="1" type="xint" value="2014"/>
-                    <entry key="2" type="xint" value="-1"/>
-                    <entry key="3" type="xint" value="-1"/>
-                </config>
-            </config>
-        </config>
-        <config key="node_128">
-            <entry key="id" type="xint" value="128"/>
-            <entry key="node_settings_file" type="xstring" value="Stacked Area Chart (#128)/settings.xml"/>
-            <entry key="node_is_meta" type="xboolean" value="false"/>
-            <entry key="node_type" type="xstring" value="NativeNode"/>
-            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
-            <config key="ui_settings">
-                <config key="extrainfo.node.bounds">
-                    <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="2745"/>
-                    <entry key="1" type="xint" value="549"/>
                     <entry key="2" type="xint" value="-1"/>
                     <entry key="3" type="xint" value="-1"/>
                 </config>
@@ -2106,7 +2090,7 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="2050"/>
+                    <entry key="0" type="xint" value="2015"/>
                     <entry key="1" type="xint" value="954"/>
                     <entry key="2" type="xint" value="-1"/>
                     <entry key="3" type="xint" value="-1"/>
@@ -2122,7 +2106,7 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="1930"/>
+                    <entry key="0" type="xint" value="1900"/>
                     <entry key="1" type="xint" value="954"/>
                     <entry key="2" type="xint" value="-1"/>
                     <entry key="3" type="xint" value="-1"/>
@@ -2138,8 +2122,24 @@
             <config key="ui_settings">
                 <config key="extrainfo.node.bounds">
                     <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="2285"/>
+                    <entry key="0" type="xint" value="2220"/>
                     <entry key="1" type="xint" value="929"/>
+                    <entry key="2" type="xint" value="-1"/>
+                    <entry key="3" type="xint" value="-1"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_188">
+            <entry key="id" type="xint" value="188"/>
+            <entry key="node_settings_file" type="xstring" value="Stacked Area Chart (#188)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="2715"/>
+                    <entry key="1" type="xint" value="539"/>
                     <entry key="2" type="xint" value="-1"/>
                     <entry key="3" type="xint" value="-1"/>
                 </config>
@@ -2739,13 +2739,13 @@
         </config>
         <config key="connection_74">
             <entry key="sourceID" type="xint" value="122"/>
-            <entry key="destID" type="xint" value="180"/>
+            <entry key="destID" type="xint" value="179"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
         <config key="connection_75">
             <entry key="sourceID" type="xint" value="122"/>
-            <entry key="destID" type="xint" value="179"/>
+            <entry key="destID" type="xint" value="180"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
@@ -2769,7 +2769,7 @@
         </config>
         <config key="connection_79">
             <entry key="sourceID" type="xint" value="127"/>
-            <entry key="destID" type="xint" value="174"/>
+            <entry key="destID" type="xint" value="184"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
@@ -2781,13 +2781,13 @@
         </config>
         <config key="connection_81">
             <entry key="sourceID" type="xint" value="127"/>
-            <entry key="destID" type="xint" value="184"/>
+            <entry key="destID" type="xint" value="174"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
         <config key="connection_82">
             <entry key="sourceID" type="xint" value="129"/>
-            <entry key="destID" type="xint" value="128"/>
+            <entry key="destID" type="xint" value="188"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
@@ -3071,13 +3071,13 @@
         </config>
         <config key="connection_122">
             <entry key="sourceID" type="xint" value="187"/>
-            <entry key="destID" type="xint" value="81"/>
+            <entry key="destID" type="xint" value="82"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
         <config key="connection_123">
             <entry key="sourceID" type="xint" value="187"/>
-            <entry key="destID" type="xint" value="82"/>
+            <entry key="destID" type="xint" value="81"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
