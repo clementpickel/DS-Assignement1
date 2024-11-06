@@ -3,18 +3,6 @@
     <entry key="spec_name" type="xstring" value="default"/>
     <entry key="number_columns" type="xint" value="13"/>
     <config key="column_spec_0">
-        <entry key="column_name" type="xstring" value="Date"/>
-        <config key="element_names">
-            <entry key="array-size" type="xint" value="0"/>
-        </config>
-        <config key="column_type">
-            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-        </config>
-        <config key="column_domain"/>
-        <config key="column_properties"/>
-        <config key="meta_data"/>
-    </config>
-    <config key="column_spec_1">
         <entry key="column_name" type="xstring" value="Precipitation Lycksele(mm)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -39,7 +27,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_2">
+    <config key="column_spec_1">
         <entry key="column_name" type="xstring" value="Precipitation Sollefteå(mm)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -64,7 +52,7 @@
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
-    <config key="column_spec_3">
+    <config key="column_spec_2">
         <entry key="column_name" type="xstring" value="Precipitation Gargnäs(mm)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
@@ -86,6 +74,18 @@
                 </config>
             </config>
         </config>
+        <config key="column_properties"/>
+        <config key="meta_data"/>
+    </config>
+    <config key="column_spec_3">
+        <entry key="column_name" type="xstring" value="DatePrefix"/>
+        <config key="element_names">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <config key="column_type">
+            <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+        </config>
+        <config key="column_domain"/>
         <config key="column_properties"/>
         <config key="meta_data"/>
     </config>
@@ -300,11 +300,11 @@
         <config key="column_domain">
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.time.localdatetime.LocalDateTimeCell"/>
-                <entry key="datacell_serialized" type="xstring" value="rO0ABXNyADhvcmcua25pbWUuY29yZS5kYXRhLnRpbWUubG9jYWxkYXRldGltZS5Mb2NhbERhdGVUaW1lQ2VsbOuti+rRJjLvAgABTAAPbV9sb2NhbERhdGVUaW1ldAAZTGphdmEvdGltZS9Mb2NhbERhdGVUaW1lO3hyABxvcmcua25pbWUuY29yZS5kYXRhLkRhdGFDZWxsZunoiVaJsoACAAB4cHNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcIBQAAB6kBAfx4"/>
+                <entry key="datacell_serialized" type="xstring" value="rO0ABXNyADhvcmcua25pbWUuY29yZS5kYXRhLnRpbWUubG9jYWxkYXRldGltZS5Mb2NhbERhdGVUaW1lQ2VsbOuti+rRJjLvAgABTAAPbV9sb2NhbERhdGVUaW1ldAAZTGphdmEvdGltZS9Mb2NhbERhdGVUaW1lO3hyABxvcmcua25pbWUuY29yZS5kYXRhLkRhdGFDZWxsZunoiVaJsoACAAB4cHNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcIBQAAB6kBB/B4"/>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.time.localdatetime.LocalDateTimeCell"/>
-                <entry key="datacell_serialized" type="xstring" value="rO0ABXNyADhvcmcua25pbWUuY29yZS5kYXRhLnRpbWUubG9jYWxkYXRldGltZS5Mb2NhbERhdGVUaW1lQ2VsbOuti+rRJjLvAgABTAAPbV9sb2NhbERhdGVUaW1ldAAZTGphdmEvdGltZS9Mb2NhbERhdGVUaW1lO3hyABxvcmcua25pbWUuY29yZS5kYXRhLkRhdGFDZWxsZunoiVaJsoACAAB4cHNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcIBQAAB+gHAeh4"/>
+                <entry key="datacell_serialized" type="xstring" value="rO0ABXNyADhvcmcua25pbWUuY29yZS5kYXRhLnRpbWUubG9jYWxkYXRldGltZS5Mb2NhbERhdGVUaW1lQ2VsbOuti+rRJjLvAgABTAAPbV9sb2NhbERhdGVUaW1ldAAZTGphdmEvdGltZS9Mb2NhbERhdGVUaW1lO3hyABxvcmcua25pbWUuY29yZS5kYXRhLkRhdGFDZWxsZunoiVaJsoACAAB4cHNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcIBQAAB+gIAfl4"/>
             </config>
         </config>
         <config key="column_properties"/>

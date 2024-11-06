@@ -61,7 +61,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_1">
-        <entry key="column_name" type="xstring" value="Date"/>
+        <entry key="column_name" type="xstring" value="Date=DatePrefix"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>

@@ -6,7 +6,7 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="expression" type="xstring" value="join($Date$, &quot;T&quot;, $Hour$)%%00010"/>
+        <entry key="expression" type="xstring" value="join($Date (Right)$, &quot;T&quot;, $Hour$)%%00010"/>
         <entry key="replaced_column" type="xstring" value="Date &amp; Time"/>
         <entry key="append_column" type="xboolean" value="false"/>
         <entry key="test_compilation_on_dialog_close" type="xboolean" value="true"/>
@@ -39,7 +39,7 @@
     <entry key="node-feature-name" type="xstring" value="KNIME Javasnippet"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.javasnippet.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.0.v202406141017"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.3.v202410291554"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="String Manipulation"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -55,6 +55,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="7f56a7ef-3f3c-4003-b74d-f00a48ca86b1"/>
+        <entry key="file_store_id" type="xstring" value="2bff7565-1e15-41c2-bca3-f1d822998a7a"/>
     </config>
 </config>

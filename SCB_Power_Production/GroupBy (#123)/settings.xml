@@ -13,24 +13,23 @@
         <config key="grouByColumns">
             <config key="InclList">
                 <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="Date Month"/>
+                <entry key="0" type="xstring" value="DatePrefix"/>
             </config>
             <config key="ExclList">
-                <entry key="array-size" type="xint" value="14"/>
-                <entry key="0" type="xstring" value="Date"/>
-                <entry key="1" type="xstring" value="Precipitation Lycksele(mm)"/>
-                <entry key="2" type="xstring" value="Precipitation Sollefteå(mm)"/>
-                <entry key="3" type="xstring" value="Precipitation Gargnäs(mm)"/>
-                <entry key="4" type="xstring" value="Wind Speed Bjuröklubb A (m/s)"/>
-                <entry key="5" type="xstring" value="Wind Speed Lycksele (m/s)"/>
-                <entry key="6" type="xstring" value="Wind Speed Storön A (m/s)"/>
-                <entry key="7" type="xstring" value="Wind Speed Rödkallen A (m/s)"/>
-                <entry key="8" type="xstring" value="Global Irradiance Lund(w/m2)"/>
-                <entry key="9" type="xstring" value="Global Irradiance Goteborg(w/m2)"/>
-                <entry key="10" type="xstring" value="Global Irradiance Stockholm(w/m2)"/>
-                <entry key="11" type="xstring" value="Global Irradiance Vaxjo(w/m2)"/>
-                <entry key="12" type="xstring" value="Date &amp; Time"/>
-                <entry key="13" type="xstring" value="Average Irradiance (w/m2)"/>
+                <entry key="array-size" type="xint" value="13"/>
+                <entry key="0" type="xstring" value="Precipitation Lycksele(mm)"/>
+                <entry key="1" type="xstring" value="Precipitation Sollefteå(mm)"/>
+                <entry key="2" type="xstring" value="Precipitation Gargnäs(mm)"/>
+                <entry key="3" type="xstring" value="Wind Speed Bjuröklubb A (m/s)"/>
+                <entry key="4" type="xstring" value="Wind Speed Lycksele (m/s)"/>
+                <entry key="5" type="xstring" value="Wind Speed Storön A (m/s)"/>
+                <entry key="6" type="xstring" value="Wind Speed Rödkallen A (m/s)"/>
+                <entry key="7" type="xstring" value="Global Irradiance Lund(w/m2)"/>
+                <entry key="8" type="xstring" value="Global Irradiance Goteborg(w/m2)"/>
+                <entry key="9" type="xstring" value="Global Irradiance Stockholm(w/m2)"/>
+                <entry key="10" type="xstring" value="Global Irradiance Vaxjo(w/m2)"/>
+                <entry key="11" type="xstring" value="Date &amp; Time"/>
+                <entry key="12" type="xstring" value="Average Irradiance (w/m2)"/>
             </config>
             <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
         </config>
@@ -61,30 +60,23 @@
         <entry key="columnNamePolicy" type="xstring" value="Aggregation method (column name)"/>
         <config key="aggregationColumn">
             <config key="columnNames">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="1"/>
                 <entry key="0" type="xstring" value="Average Irradiance (w/m2)"/>
-                <entry key="1" type="xstring" value="Date"/>
             </config>
             <config key="columnTypes">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="1"/>
                 <config key="0">
                     <entry key="cell_class" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                     <entry key="is_null" type="xboolean" value="false"/>
                 </config>
-                <config key="1">
-                    <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                    <entry key="is_null" type="xboolean" value="false"/>
-                </config>
             </config>
             <config key="aggregationMethod">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="1"/>
                 <entry key="0" type="xstring" value="Mean_V4.6"/>
-                <entry key="1" type="xstring" value="First"/>
             </config>
             <config key="inclMissingVals">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="1"/>
                 <entry key="0" type="xboolean" value="false"/>
-                <entry key="1" type="xboolean" value="true"/>
             </config>
         </config>
         <config key="aggregationOperatorSettings"/>
@@ -129,11 +121,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409100934"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.3.v202410291553"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409100934"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.3.v202410301420"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="GroupBy"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -143,12 +135,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 917, Cols: 3"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 917, Cols: 2"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="29cc1ee7-f4db-49b0-b0cb-8f4df2a8e464"/>
+        <entry key="file_store_id" type="xstring" value="d40507ac-a790-4339-85f4-018aa7dc0a78"/>
     </config>
 </config>

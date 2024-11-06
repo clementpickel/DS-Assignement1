@@ -9,11 +9,9 @@
         <config key="column-filter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="4"/>
-                <entry key="0" type="xstring" value="Type"/>
-                <entry key="1" type="xstring" value="Date"/>
-                <entry key="2" type="xstring" value="Value"/>
-                <entry key="3" type="xstring" value="Average Precipitation (mm)"/>
+                <entry key="array-size" type="xint" value="2"/>
+                <entry key="0" type="xstring" value="DatePrefix"/>
+                <entry key="1" type="xstring" value="Average Precipitation (mm)"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="12"/>
@@ -65,11 +63,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409100934"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.3.v202410291553"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409100934"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.3.v202410301420"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Column Filter"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -85,6 +83,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ca65a7c1-4077-4077-bfcc-435e117a6950"/>
+        <entry key="file_store_id" type="xstring" value="d983ad41-8c2e-429d-8569-10720a6851b0"/>
     </config>
 </config>

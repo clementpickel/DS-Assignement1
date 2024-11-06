@@ -3,7 +3,7 @@
     <entry key="spec_name" type="xstring" value="default"/>
     <entry key="number_columns" type="xint" value="2"/>
     <config key="column_spec_0">
-        <entry key="column_name" type="xstring" value="Date"/>
+        <entry key="column_name" type="xstring" value="DatePrefix"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>

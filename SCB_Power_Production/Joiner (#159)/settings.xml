@@ -9,8 +9,8 @@
         <entry key="compositionMode" type="xstring" value="MATCH_ALL"/>
         <config key="matchingCriteria">
             <config key="0">
-                <entry key="leftTableColumn" type="xstring" value="First(Date)"/>
-                <entry key="rightTableColumn" type="xstring" value="First(Date)"/>
+                <entry key="leftTableColumn" type="xstring" value="DatePrefix"/>
+                <entry key="rightTableColumn" type="xstring" value="DatePrefix"/>
             </config>
         </config>
         <entry key="dataCellComparisonMode" type="xstring" value="STRICT"/>
@@ -97,11 +97,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409100934"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.3.v202410291553"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409100934"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.3.v202410301420"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Joiner"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -111,7 +111,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 916, Cols: 5"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 917, Cols: 4"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -135,6 +135,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="01ba2aba-30d4-4636-9391-b4d42c81cecb"/>
+        <entry key="file_store_id" type="xstring" value="b98af8be-0e9a-4567-8fa1-a6aad4e505ed"/>
     </config>
 </config>
