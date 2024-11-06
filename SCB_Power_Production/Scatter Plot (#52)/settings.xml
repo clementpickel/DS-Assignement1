@@ -12,17 +12,19 @@
     </config>
     <config key="view">
         <config key="xAxisColumn">
-            <entry key="selected" type="xstring" value="Date"/>
+            <entry key="selected" type="xstring" value="Average Precipitation (mm)"/>
             <config key="compatibleTypes_Internals">
-                <entry key="array-size" type="xint" value="4"/>
-                <entry key="0" type="xstring" value="org.knime.core.data.time.localdate.LocalDateValue"/>
+                <entry key="array-size" type="xint" value="6"/>
+                <entry key="0" type="xstring" value="org.knime.core.data.DoubleValue"/>
                 <entry key="1" type="xstring" value="org.knime.core.data.DataValue"/>
-                <entry key="2" type="xstring" value="org.knime.core.data.BoundedValue"/>
-                <entry key="3" type="xstring" value="org.knime.core.data.StringValue"/>
+                <entry key="2" type="xstring" value="org.knime.core.data.ComplexNumberValue"/>
+                <entry key="3" type="xstring" value="org.knime.core.data.FuzzyNumberValue"/>
+                <entry key="4" type="xstring" value="org.knime.core.data.FuzzyIntervalValue"/>
+                <entry key="5" type="xstring" value="org.knime.core.data.BoundedValue"/>
             </config>
         </config>
         <config key="yAxisColumn">
-            <entry key="selected" type="xstring" value="Average Precipitation (mm)"/>
+            <entry key="selected" type="xstring" value="Value"/>
             <config key="compatibleTypes_Internals">
                 <entry key="array-size" type="xint" value="6"/>
                 <entry key="0" type="xstring" value="org.knime.core.data.DoubleValue"/>
@@ -96,6 +98,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ff5d85e0-cc2e-4658-86ad-2ca29fad2f8b"/>
+        <entry key="file_store_id" type="xstring" value="18a5d620-084c-4370-ad2d-104e7fb4676e"/>
     </config>
 </config>

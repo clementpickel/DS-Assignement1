@@ -23,9 +23,12 @@
         </config>
         <config key="yAxisColumn">
             <config key="selected_Internals">
-                <entry key="array-size" type="xint" value="2"/>
+                <entry key="array-size" type="xint" value="5"/>
                 <entry key="0" type="xstring" value="Energy Production"/>
                 <entry key="1" type="xstring" value="Irradiance (w/m2)"/>
+                <entry key="2" type="xstring" value="Electricity (GWh)"/>
+                <entry key="3" type="xstring" value="Irradiance (W/m2)"/>
+                <entry key="4" type="xstring" value="Median(Average Irradiance (w/m2))"/>
             </config>
             <entry key="mode" type="xstring" value="MANUAL"/>
             <config key="patternFilter">
@@ -35,12 +38,16 @@
             </config>
             <config key="manualFilter">
                 <config key="manuallySelected">
-                    <entry key="array-size" type="xint" value="2"/>
+                    <entry key="array-size" type="xint" value="5"/>
                     <entry key="0" type="xstring" value="Energy Production"/>
                     <entry key="1" type="xstring" value="Irradiance (w/m2)"/>
+                    <entry key="2" type="xstring" value="Electricity (GWh)"/>
+                    <entry key="3" type="xstring" value="Irradiance (W/m2)"/>
+                    <entry key="4" type="xstring" value="Median(Average Irradiance (w/m2))"/>
                 </config>
                 <config key="manuallyDeselected">
-                    <entry key="array-size" type="xint" value="0"/>
+                    <entry key="array-size" type="xint" value="1"/>
+                    <entry key="0" type="xstring" value="Sum(Average Irradiance (w/m2))"/>
                 </config>
                 <entry key="includeUnknownColumns" type="xboolean" value="true"/>
             </config>
@@ -122,6 +129,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="64684a47-198b-496a-b5b8-51d08121ceac"/>
+        <entry key="file_store_id" type="xstring" value="607c6f99-2ecf-4cad-9b08-e50007d528a4"/>
     </config>
 </config>

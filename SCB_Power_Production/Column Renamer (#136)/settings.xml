@@ -9,7 +9,7 @@
         <config key="renamings">
             <config key="0">
                 <entry key="oldName" type="xstring" value="Mean(Average Wind Speed (m/s))"/>
-                <entry key="newName" type="xstring" value="Wind Speed (m/s)"/>
+                <entry key="newName" type="xstring" value="Mean of Wind Speed (m/s)"/>
             </config>
             <config key="1">
                 <entry key="oldName" type="xstring" value="Date=First(Date)"/>
@@ -18,6 +18,14 @@
             <config key="2">
                 <entry key="oldName" type="xstring" value="Value"/>
                 <entry key="newName" type="xstring" value="Electricity (GWh)"/>
+            </config>
+            <config key="3">
+                <entry key="oldName" type="xstring" value="Median(Average Wind Speed (m/s))"/>
+                <entry key="newName" type="xstring" value="Median of Wind Speed (m/s)"/>
+            </config>
+            <config key="4">
+                <entry key="oldName" type="xstring" value="Sum(Average Wind Speed (m/s))"/>
+                <entry key="newName" type="xstring" value="Sum of Wind Speed (m/s)"/>
             </config>
         </config>
     </config>
@@ -43,12 +51,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 43, Cols: 4"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 43, Cols: 6"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="b0293701-e02b-4e17-9ad5-f0c3c9d74973"/>
+        <entry key="file_store_id" type="xstring" value="ab8bf6f1-d971-4fa4-bb2c-b0578d606224"/>
     </config>
 </config>
