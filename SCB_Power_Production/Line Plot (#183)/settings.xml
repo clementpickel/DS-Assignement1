@@ -23,13 +23,11 @@
         </config>
         <config key="yAxisColumn">
             <config key="selected_Internals">
-                <entry key="array-size" type="xint" value="6"/>
-                <entry key="0" type="xstring" value="Energy Production"/>
-                <entry key="1" type="xstring" value="Irradiance (w/m2)"/>
-                <entry key="2" type="xstring" value="Electricity (GWh)"/>
-                <entry key="3" type="xstring" value="Sum(Average Irradiance (w/m2))"/>
-                <entry key="4" type="xstring" value="Irradiance (W/m2)"/>
-                <entry key="5" type="xstring" value="Median(Average Irradiance (w/m2))"/>
+                <entry key="array-size" type="xint" value="4"/>
+                <entry key="0" type="xstring" value="Electricity (GWh)"/>
+                <entry key="1" type="xstring" value="Sum of Irradiance (W/m2)"/>
+                <entry key="2" type="xstring" value="Mean of Irradiance (W/m2)"/>
+                <entry key="3" type="xstring" value="Median of Irradiance (W/m2)"/>
             </config>
             <entry key="mode" type="xstring" value="MANUAL"/>
             <config key="patternFilter">
@@ -39,13 +37,11 @@
             </config>
             <config key="manualFilter">
                 <config key="manuallySelected">
-                    <entry key="array-size" type="xint" value="6"/>
-                    <entry key="0" type="xstring" value="Energy Production"/>
-                    <entry key="1" type="xstring" value="Irradiance (w/m2)"/>
-                    <entry key="2" type="xstring" value="Electricity (GWh)"/>
-                    <entry key="3" type="xstring" value="Sum(Average Irradiance (w/m2))"/>
-                    <entry key="4" type="xstring" value="Irradiance (W/m2)"/>
-                    <entry key="5" type="xstring" value="Median(Average Irradiance (w/m2))"/>
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xstring" value="Electricity (GWh)"/>
+                    <entry key="1" type="xstring" value="Sum of Irradiance (W/m2)"/>
+                    <entry key="2" type="xstring" value="Mean of Irradiance (W/m2)"/>
+                    <entry key="3" type="xstring" value="Median of Irradiance (W/m2)"/>
                 </config>
                 <config key="manuallyDeselected">
                     <entry key="array-size" type="xint" value="0"/>
@@ -130,6 +126,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a86b4bda-ffe7-4744-a3e7-27820880695f"/>
+        <entry key="file_store_id" type="xstring" value="9ccfff10-4fbe-431e-9ba1-e062c3d785fa"/>
     </config>
 </config>

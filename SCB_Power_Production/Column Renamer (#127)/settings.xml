@@ -9,7 +9,7 @@
         <config key="renamings">
             <config key="0">
                 <entry key="oldName" type="xstring" value="Mean(Average Irradiance (w/m2))"/>
-                <entry key="newName" type="xstring" value="Irradiance (W/m2)"/>
+                <entry key="newName" type="xstring" value="Mean of Irradiance (W/m2)"/>
             </config>
             <config key="1">
                 <entry key="oldName" type="xstring" value="Date=DatePrefix"/>
@@ -18,6 +18,14 @@
             <config key="2">
                 <entry key="oldName" type="xstring" value="Value"/>
                 <entry key="newName" type="xstring" value="Electricity (GWh)"/>
+            </config>
+            <config key="3">
+                <entry key="oldName" type="xstring" value="Sum(Average Irradiance (w/m2))"/>
+                <entry key="newName" type="xstring" value="Sum of Irradiance (W/m2)"/>
+            </config>
+            <config key="4">
+                <entry key="oldName" type="xstring" value="Median(Average Irradiance (w/m2))"/>
+                <entry key="newName" type="xstring" value="Median of Irradiance (W/m2)"/>
             </config>
         </config>
     </config>
@@ -64,6 +72,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="388ce72f-3eb6-494a-b6c6-a8750df57f4c"/>
+        <entry key="file_store_id" type="xstring" value="d06519a9-ae5d-40cc-b91e-fb0ef82f9783"/>
     </config>
 </config>

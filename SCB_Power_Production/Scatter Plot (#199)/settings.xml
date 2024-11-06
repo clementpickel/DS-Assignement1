@@ -12,7 +12,7 @@
     </config>
     <config key="view">
         <config key="xAxisColumn">
-            <entry key="selected" type="xstring" value="Solar energy production (GWh)"/>
+            <entry key="selected" type="xstring" value="Irradiance (W/m2)"/>
             <config key="compatibleTypes_Internals">
                 <entry key="array-size" type="xint" value="6"/>
                 <entry key="0" type="xstring" value="org.knime.core.data.DoubleValue"/>
@@ -24,7 +24,7 @@
             </config>
         </config>
         <config key="yAxisColumn">
-            <entry key="selected" type="xstring" value="Irradiance (W/m2)"/>
+            <entry key="selected" type="xstring" value="Solar energy production (GWh)"/>
             <config key="compatibleTypes_Internals">
                 <entry key="array-size" type="xint" value="6"/>
                 <entry key="0" type="xstring" value="org.knime.core.data.DoubleValue"/>

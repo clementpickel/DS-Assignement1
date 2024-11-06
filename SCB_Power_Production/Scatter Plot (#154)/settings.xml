@@ -12,6 +12,18 @@
     </config>
     <config key="view">
         <config key="xAxisColumn">
+            <entry key="selected" type="xstring" value="Mean of Irradiance (W/m2)"/>
+            <config key="compatibleTypes_Internals">
+                <entry key="array-size" type="xint" value="6"/>
+                <entry key="0" type="xstring" value="org.knime.core.data.DoubleValue"/>
+                <entry key="1" type="xstring" value="org.knime.core.data.DataValue"/>
+                <entry key="2" type="xstring" value="org.knime.core.data.ComplexNumberValue"/>
+                <entry key="3" type="xstring" value="org.knime.core.data.FuzzyNumberValue"/>
+                <entry key="4" type="xstring" value="org.knime.core.data.FuzzyIntervalValue"/>
+                <entry key="5" type="xstring" value="org.knime.core.data.BoundedValue"/>
+            </config>
+        </config>
+        <config key="yAxisColumn">
             <entry key="selected" type="xstring" value="Electricity (GWh)"/>
             <config key="compatibleTypes_Internals">
                 <entry key="array-size" type="xint" value="7"/>
@@ -22,18 +34,6 @@
                 <entry key="4" type="xstring" value="org.knime.core.data.FuzzyNumberValue"/>
                 <entry key="5" type="xstring" value="org.knime.core.data.FuzzyIntervalValue"/>
                 <entry key="6" type="xstring" value="org.knime.core.data.BoundedValue"/>
-            </config>
-        </config>
-        <config key="yAxisColumn">
-            <entry key="selected" type="xstring" value="Irradiance (W/m2)"/>
-            <config key="compatibleTypes_Internals">
-                <entry key="array-size" type="xint" value="6"/>
-                <entry key="0" type="xstring" value="org.knime.core.data.DoubleValue"/>
-                <entry key="1" type="xstring" value="org.knime.core.data.DataValue"/>
-                <entry key="2" type="xstring" value="org.knime.core.data.ComplexNumberValue"/>
-                <entry key="3" type="xstring" value="org.knime.core.data.FuzzyNumberValue"/>
-                <entry key="4" type="xstring" value="org.knime.core.data.FuzzyIntervalValue"/>
-                <entry key="5" type="xstring" value="org.knime.core.data.BoundedValue"/>
             </config>
         </config>
         <config key="colorColumn">
@@ -114,6 +114,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a82299eb-a420-4ab0-a101-b80d6ccf304e"/>
+        <entry key="file_store_id" type="xstring" value="0f8bf5ce-c31f-453e-b1ff-193fdb3d6bbe"/>
     </config>
 </config>
