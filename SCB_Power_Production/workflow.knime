@@ -8,7 +8,7 @@
         <entry key="authored-by" type="xstring" value="stanic"/>
         <entry key="authored-when" type="xstring" value="2021-09-17 10:29:01 +0200"/>
         <entry key="lastEdited-by" type="xstring" value="cpick"/>
-        <entry key="lastEdited-when" type="xstring" value="2024-11-07 12:16:43 +0100"/>
+        <entry key="lastEdited-when" type="xstring" value="2024-11-07 17:48:20 +0100"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="CONFIGURED"/>
@@ -2065,22 +2065,6 @@
                 </config>
             </config>
         </config>
-        <config key="node_188">
-            <entry key="id" type="xint" value="188"/>
-            <entry key="node_settings_file" type="xstring" value="Stacked Area Chart (#188)/settings.xml"/>
-            <entry key="node_is_meta" type="xboolean" value="false"/>
-            <entry key="node_type" type="xstring" value="NativeNode"/>
-            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
-            <config key="ui_settings">
-                <config key="extrainfo.node.bounds">
-                    <entry key="array-size" type="xint" value="4"/>
-                    <entry key="0" type="xint" value="3125"/>
-                    <entry key="1" type="xint" value="544"/>
-                    <entry key="2" type="xint" value="-1"/>
-                    <entry key="3" type="xint" value="-1"/>
-                </config>
-            </config>
-        </config>
         <config key="node_189">
             <entry key="id" type="xint" value="189"/>
             <entry key="node_settings_file" type="xstring" value="String Manipulation (#189)/settings.xml"/>
@@ -2444,6 +2428,22 @@
                     <entry key="array-size" type="xint" value="4"/>
                     <entry key="0" type="xint" value="3020"/>
                     <entry key="1" type="xint" value="1739"/>
+                    <entry key="2" type="xint" value="-1"/>
+                    <entry key="3" type="xint" value="-1"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_214">
+            <entry key="id" type="xint" value="214"/>
+            <entry key="node_settings_file" type="xstring" value="Stacked Area Chart (#214)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="3185"/>
+                    <entry key="1" type="xint" value="549"/>
                     <entry key="2" type="xint" value="-1"/>
                     <entry key="3" type="xint" value="-1"/>
                 </config>
@@ -3129,7 +3129,7 @@
         </config>
         <config key="connection_83">
             <entry key="sourceID" type="xint" value="129"/>
-            <entry key="destID" type="xint" value="188"/>
+            <entry key="destID" type="xint" value="214"/>
             <entry key="sourcePort" type="xint" value="1"/>
             <entry key="destPort" type="xint" value="1"/>
         </config>
