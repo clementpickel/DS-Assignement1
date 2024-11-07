@@ -324,7 +324,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_9">
-        <entry key="column_name" type="xstring" value="Wind Speed Storön A (m/s)"/>
+        <entry key="column_name" type="xstring" value="Wind Speed Arvidsjaur A (m/s)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -341,7 +341,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="22.8"/>
+                    <entry key="DoubleCell" type="xdouble" value="17.5"/>
                 </config>
             </config>
         </config>
@@ -349,7 +349,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_10">
-        <entry key="column_name" type="xstring" value="Wind Speed Rödkallen A (m/s)"/>
+        <entry key="column_name" type="xstring" value="Wind Speed Stora Sjöfal A (m/s)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -366,7 +366,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="26.0"/>
+                    <entry key="DoubleCell" type="xdouble" value="36.7"/>
                 </config>
             </config>
         </config>
@@ -484,7 +484,7 @@
         <config key="column_domain">
             <config key="lower_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.time.localdatetime.LocalDateTimeCell"/>
-                <entry key="datacell_serialized" type="xstring" value="rO0ABXNyADhvcmcua25pbWUuY29yZS5kYXRhLnRpbWUubG9jYWxkYXRldGltZS5Mb2NhbERhdGVUaW1lQ2VsbOuti+rRJjLvAgABTAAPbV9sb2NhbERhdGVUaW1ldAAZTGphdmEvdGltZS9Mb2NhbERhdGVUaW1lO3hyABxvcmcua25pbWUuY29yZS5kYXRhLkRhdGFDZWxsZunoiVaJsoACAAB4cHNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcIBQAAB6kBB/B4"/>
+                <entry key="datacell_serialized" type="xstring" value="rO0ABXNyADhvcmcua25pbWUuY29yZS5kYXRhLnRpbWUubG9jYWxkYXRldGltZS5Mb2NhbERhdGVUaW1lQ2VsbOuti+rRJjLvAgABTAAPbV9sb2NhbERhdGVUaW1ldAAZTGphdmEvdGltZS9Mb2NhbERhdGVUaW1lO3hyABxvcmcua25pbWUuY29yZS5kYXRhLkRhdGFDZWxsZunoiVaJsoACAAB4cHNyAA1qYXZhLnRpbWUuU2VylV2EuhsiSLIMAAB4cHcIBQAAB6oCDvN4"/>
             </config>
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.time.localdatetime.LocalDateTimeCell"/>

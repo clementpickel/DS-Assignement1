@@ -324,7 +324,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_9">
-        <entry key="column_name" type="xstring" value="Wind Speed Storön A (m/s)"/>
+        <entry key="column_name" type="xstring" value="Wind Speed Arvidsjaur A (m/s)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -341,7 +341,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="22.8"/>
+                    <entry key="DoubleCell" type="xdouble" value="17.5"/>
                 </config>
             </config>
         </config>
@@ -349,7 +349,7 @@
         <config key="meta_data"/>
     </config>
     <config key="column_spec_10">
-        <entry key="column_name" type="xstring" value="Wind Speed Rödkallen A (m/s)"/>
+        <entry key="column_name" type="xstring" value="Wind Speed Stora Sjöfal A (m/s)"/>
         <config key="element_names">
             <entry key="array-size" type="xint" value="0"/>
         </config>
@@ -366,7 +366,7 @@
             <config key="upper_bound">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.DoubleCell"/>
                 <config key="org.knime.core.data.def.DoubleCell">
-                    <entry key="DoubleCell" type="xdouble" value="26.0"/>
+                    <entry key="DoubleCell" type="xdouble" value="36.7"/>
                 </config>
             </config>
         </config>

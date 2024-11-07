@@ -8,7 +8,7 @@
     <config key="model">
         <entry key="append_column" type="xboolean" value="false"/>
         <entry key="replaced_column" type="xstring" value="Average Wind Speed (m/s)"/>
-        <entry key="expression" type="xstring" value="($Wind Speed Bjuröklubb A (m/s)$ + $Wind Speed Lycksele (m/s)$ + $Wind Speed Storön A (m/s)$ + $Wind Speed Rödkallen A (m/s)$) / 4"/>
+        <entry key="expression" type="xstring" value="($Wind Speed Bjuröklubb A (m/s)$ + $Wind Speed Lycksele (m/s)$ + $Wind Speed Arvidsjaur A (m/s)$ + $Wind Speed Stora Sjöfal A (m/s)$) / 4"/>
         <entry key="convert_to_int" type="xboolean" value="false"/>
     </config>
     <config key="nodeAnnotation">
@@ -47,12 +47,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 414581, Cols: 14"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 406854, Cols: 14"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="e60f034e-f4db-45e9-ba67-d70acef71319"/>
+        <entry key="file_store_id" type="xstring" value="737edad4-21f1-4275-b722-46ed6b1eaf4d"/>
     </config>
 </config>

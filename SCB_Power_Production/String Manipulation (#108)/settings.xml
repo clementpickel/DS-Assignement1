@@ -39,7 +39,7 @@
     <entry key="node-feature-name" type="xstring" value="KNIME Javasnippet"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.javasnippet.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.0.v202406141017"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.3.v202410291554"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="String Manipulation"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -49,12 +49,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 414427, Cols: 11"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 406688, Cols: 11"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a87b1b9d-7509-4224-b829-a8183e7851c5"/>
+        <entry key="file_store_id" type="xstring" value="8a1cf46d-28d4-4e96-901a-940bd80f135a"/>
     </config>
 </config>

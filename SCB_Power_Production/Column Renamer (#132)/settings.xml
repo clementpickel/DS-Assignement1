@@ -8,23 +8,23 @@
     <config key="model">
         <config key="renamings">
             <config key="0">
-                <entry key="oldName" type="xstring" value="1996-01-02;21:00:00;0.0;G"/>
+                <entry key="oldName" type="xstring" value="1996-02-03;19:00:00;5.7;Y"/>
                 <entry key="newName" type="xstring" value="default"/>
             </config>
             <config key="1">
-                <entry key="oldName" type="xstring" value="1996-01-02;21:00:00;0.0;G_Arr[0]"/>
+                <entry key="oldName" type="xstring" value="1996-02-03;19:00:00;5.7;Y_Arr[0]"/>
                 <entry key="newName" type="xstring" value="Date"/>
             </config>
             <config key="2">
-                <entry key="oldName" type="xstring" value="1996-01-02;21:00:00;0.0;G_Arr[1]"/>
+                <entry key="oldName" type="xstring" value="1996-02-03;19:00:00;5.7;Y_Arr[1]"/>
                 <entry key="newName" type="xstring" value="Hour"/>
             </config>
             <config key="3">
-                <entry key="oldName" type="xstring" value="1996-01-02;21:00:00;0.0;G_Arr[2]"/>
-                <entry key="newName" type="xstring" value="Wind Speed Storön A (m/s)"/>
+                <entry key="oldName" type="xstring" value="1996-02-03;19:00:00;5.7;Y_Arr[2]"/>
+                <entry key="newName" type="xstring" value="Wind Speed Arvidsjaur A (m/s)"/>
             </config>
             <config key="4">
-                <entry key="oldName" type="xstring" value="1996-01-02;21:00:00;0.0;G_Arr[3]"/>
+                <entry key="oldName" type="xstring" value="1996-02-03;19:00:00;5.7;Y_Arr[3]"/>
                 <entry key="newName" type="xstring" value="Wind Speed Quality"/>
             </config>
         </config>
@@ -37,11 +37,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409100934"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.3.v202410291553"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409100934"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.3.v202410301420"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Column Renamer"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -51,12 +51,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 244166, Cols: 5"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 244209, Cols: 5"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="23b6a1a5-d229-43e7-8c06-fe00b64c5916"/>
+        <entry key="file_store_id" type="xstring" value="304f7a9c-7332-4412-8ae7-68dae731b4c0"/>
     </config>
 </config>
