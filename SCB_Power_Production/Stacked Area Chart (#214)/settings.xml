@@ -16,7 +16,7 @@
                 <entry key="3" type="xstring" value="org.knime.core.data.StringValue"/>
             </config>
         </config>
-        <entry key="aggregationMethod" type="xstring" value="SUM"/>
+        <entry key="aggregationMethod" type="xstring" value="NONE"/>
         <config key="frequencyColumns">
             <config key="selected_Internals">
                 <entry key="array-size" type="xint" value="6"/>
@@ -62,7 +62,7 @@
     <config key="variables"/>
     <config key="view">
         <entry key="maxRows" type="xint" value="2500"/>
-        <entry key="title" type="xstring" value="Energy production of Sc=weden"/>
+        <entry key="title" type="xstring" value="Energy production of Sweden"/>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
         <config key="manualAxisLimits">
             <entry key="min" type="xdouble" value="0.0"/>
@@ -71,7 +71,7 @@
         <entry key="useCustomXAxisLabel" type="xboolean" value="false"/>
         <entry key="customXAxisLabel" type="xstring" isnull="true" value=""/>
         <entry key="useCustomYAxisLabel" type="xboolean" value="true"/>
-        <entry key="customYAxisLabel" type="xstring" value="Power production (GWh)"/>
+        <entry key="customYAxisLabel" type="xstring" value="Energy production (GWh)"/>
         <entry key="showLegend" type="xboolean" value="true"/>
         <entry key="lineSize" type="xint" value="2"/>
         <entry key="showDataPointMarkers" type="xboolean" value="false"/>
@@ -126,6 +126,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ca2be9f2-c88e-4802-8f6d-28b78f94d85e"/>
+        <entry key="file_store_id" type="xstring" value="f38bbe03-303d-4f5f-8741-ebec606dfdc9"/>
     </config>
 </config>
