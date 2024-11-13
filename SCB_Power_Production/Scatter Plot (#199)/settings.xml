@@ -42,7 +42,7 @@
             </config>
         </config>
         <entry key="maxRows" type="xint" value="2500"/>
-        <entry key="title" type="xstring" value="Scatter Plot"/>
+        <entry key="title" type="xstring" value="Global Irradiance and solar power correlation"/>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
         <config key="manualAxisLimits">
             <entry key="xAxisManualMin" type="xdouble" value="0.0"/>
@@ -113,6 +113,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="4c5532b9-1928-4711-a9db-55756694ee3d"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>

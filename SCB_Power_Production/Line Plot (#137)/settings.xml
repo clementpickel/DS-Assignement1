@@ -55,7 +55,7 @@
             </config>
         </config>
         <entry key="maxRows" type="xint" value="2500"/>
-        <entry key="title" type="xstring" value="Line Plot"/>
+        <entry key="title" type="xstring" value="Wind Speed and Wind power"/>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
         <config key="manualAxisLimits">
             <entry key="xAxisManualMin" type="xdouble" value="0.0"/>
@@ -126,6 +126,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a73e3e8a-f3ee-4e7e-ae7f-4d088e61804e"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>

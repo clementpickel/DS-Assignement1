@@ -58,7 +58,7 @@
             </config>
         </config>
         <entry key="maxRows" type="xint" value="2500"/>
-        <entry key="title" type="xstring" value="Line Plot"/>
+        <entry key="title" type="xstring" value="Global Irradiance and Solar power average 2021-today"/>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
         <config key="manualAxisLimits">
             <entry key="xAxisManualMin" type="xdouble" value="0.0"/>
@@ -129,6 +129,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="3d1304b5-3449-4fc3-8f80-94a05c4bae32"/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
     </config>
 </config>
