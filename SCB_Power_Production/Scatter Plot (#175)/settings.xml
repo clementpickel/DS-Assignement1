@@ -7,12 +7,14 @@
     </config>
     <config key="model">
         <entry key="generateImage" type="xboolean" value="false"/>
+        <entry key="imageFormat" type="xstring" value="PNG"/>
         <entry key="width" type="xint" value="800"/>
         <entry key="height" type="xint" value="600"/>
     </config>
+    <config key="variables"/>
     <config key="view">
         <config key="xAxisColumn">
-            <entry key="selected" type="xstring" value="Electricity (GWh)"/>
+            <entry key="selected" type="xstring" value="Electricity (norm.)"/>
             <config key="compatibleTypes_Internals">
                 <entry key="array-size" type="xint" value="6"/>
                 <entry key="0" type="xstring" value="org.knime.core.data.DoubleValue"/>
@@ -24,7 +26,7 @@
             </config>
         </config>
         <config key="yAxisColumn">
-            <entry key="selected" type="xstring" value="Mean of Wind Speed (m/s)"/>
+            <entry key="selected" type="xstring" value="Mean of Wind Speed (norm.)"/>
             <config key="compatibleTypes_Internals">
                 <entry key="array-size" type="xint" value="6"/>
                 <entry key="0" type="xstring" value="org.knime.core.data.DoubleValue"/>
@@ -57,6 +59,7 @@
         <entry key="customYAxisLabel" type="xstring" isnull="true" value=""/>
         <entry key="yAxisScale" type="xstring" value="VALUE"/>
         <entry key="dataPointSize" type="xint" value="10"/>
+        <entry key="showLegend" type="xboolean" value="true"/>
         <entry key="allowImageDownload" type="xboolean" value="true"/>
         <entry key="enableDataZoom" type="xboolean" value="true"/>
         <entry key="showTooltip" type="xboolean" value="true"/>
@@ -87,11 +90,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Views"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base.views"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.3.3.v202410291553"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.0.v202411261305"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Views"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.views.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.3.v202410291553"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.0.v202411261305"/>
     <config key="factory_settings"/>
     <config key="node_creation_config">
         <config key="Input Table"/>
@@ -113,6 +116,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="090b7d02-11c5-41bd-accd-afad13ea8d6a"/>
+        <entry key="file_store_id" type="xstring" value="eac7752e-a2b1-4ffd-8a4d-a840c94afb3f"/>
     </config>
 </config>
