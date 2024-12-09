@@ -197,11 +197,18 @@
                             <entry key="StringCell" type="xstring" value="cluster_3"/>
                         </config>
                     </config>
+                    <config key="cluster_4">
+                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                        <config key="org.knime.core.data.def.StringCell">
+                            <entry key="StringCell" type="xstring" value="cluster_4"/>
+                        </config>
+                    </config>
                 </config>
                 <entry key="cluster_0" type="xint" value="-13393876"/>
                 <entry key="cluster_1" type="xint" value="-1893860"/>
                 <entry key="cluster_2" type="xint" value="-14714700"/>
                 <entry key="cluster_3" type="xint" value="-9814630"/>
+                <entry key="cluster_4" type="xint" value="-16777216"/>
                 <config key="palette">
                     <entry key="array-size" type="xint" value="1"/>
                     <entry key="0" type="xint" value="-12566464"/>

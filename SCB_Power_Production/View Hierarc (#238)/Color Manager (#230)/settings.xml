@@ -13,8 +13,9 @@
         <entry key="cluster_1" type="xint" value="-1893860"/>
         <entry key="cluster_2" type="xint" value="-14714700"/>
         <entry key="cluster_3" type="xint" value="-9814630"/>
+        <entry key="cluster_4" type="xint" value="-16777216"/>
         <config key="values">
-            <entry key="array-size" type="xint" value="4"/>
+            <entry key="array-size" type="xint" value="5"/>
             <config key="0">
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                 <config key="org.knime.core.data.def.StringCell">
@@ -37,6 +38,12 @@
                 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                 <config key="org.knime.core.data.def.StringCell">
                     <entry key="StringCell" type="xstring" value="cluster_3"/>
+                </config>
+            </config>
+            <config key="4">
+                <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+                <config key="org.knime.core.data.def.StringCell">
+                    <entry key="StringCell" type="xstring" value="cluster_4"/>
                 </config>
             </config>
         </config>
@@ -92,6 +99,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="6b1f8412-f278-46f5-a4e1-2c1f77ca721e"/>
+        <entry key="file_store_id" type="xstring" value="42f7d4e4-167f-412d-83fb-41af9349fc80"/>
     </config>
 </config>
